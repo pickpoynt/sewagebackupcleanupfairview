@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Baton Rouge LA</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pest Control Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Montello WI</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Plumbing Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm text-nowrap">
-              Baton Rouge's specialized team for professional <br /> pest control and home protection. <br /> We provide eco-friendly extermination services.
+              Montello's specialized team for professional <br /> plumbing repairs and home protection. <br /> We provide expert hydraulic solutions.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Control Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Plumbing Services</h4>
             <ul className="space-y-4">
               {[
-                "Termite Extermination",
-                "Rodent Exclusion",
-                "Ant & Cockroach Control",
-                "Mosquito Treatment",
-                "Bed Bug Removal",
-                "Emergency Pest Control"
+                "Emergency Pipe Repair",
+                "Drain Cleaning",
+                "Water Heater Service",
+                "Frozen Pipe Thawing",
+                "Fixture Installation",
+                "Sewer Line Inspection"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Baton Rouge NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Montello NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,8 +60,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">100 North Blvd</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Baton Rouge, LA 70801</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">100 Church St</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Montello, WI 53949</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Inquiries</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">3238801224</a>
+                  <a href="tel:8777921410" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">8777921410</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -88,18 +88,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the meticulous requirements of Baton Rouge LA pest control, utilizing eco-friendly containment and professional-grade extermination protocols.
+              We specialize in the meticulous requirements of Montello WI plumbing, utilizing high-grade components and professional-grade hydraulic protocols.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Pest Mitigation Available Across Baton Rouge.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Plumbing Mitigation Available Across Montello.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Baton Rouge Pest Control Pros. All rights reserved. Professional Pest Removal & Home Protection.
+            © {new Date().getFullYear()} Montello Plumbing Pros. All rights reserved. Professional Plumbing Repairs & Home Protection.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">

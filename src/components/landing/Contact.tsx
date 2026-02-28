@@ -17,14 +17,14 @@ const Contact = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
                   <ShieldCheck className="w-4 h-4" />
-                  Baton Rouge Pest Safety
+                  Montello Plumbing Safety
                 </div>
                 <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                  Protect Your Home <br />
-                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">pest control baton rouge</span>
+                  Protect Your Property <br />
+                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">plumber montello wi</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-                  Professional Baton Rouge pest control specialists ready to safely eradicate infestations. Urgent response available for termites, rodents, and seasonal pests.
+                  Professional Montello plumbing specialists ready to safely fix leaks and restore flow. Urgent response available for pipe bursts, drain clogs, and heater failures.
                 </p>
               </div>
 
@@ -33,22 +33,22 @@ const Contact = () => {
                   <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1 text-nowrap">PEST CONTROL HOTLINE</p>
-                  <a href="tel:3238801224" className="text-xl font-bold text-slate-900">3238801224</a>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1 text-nowrap">PLUMBING HOTLINE</p>
+                  <a href="tel:8777921410" className="text-xl font-bold text-slate-900">8777921410</a>
                 </div>
                 <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50">
                   <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">BATON ROUGE EXPERTS</p>
-                  <p className="text-sm font-bold text-slate-900 uppercase">Baton Rouge, LA 70801</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">MONTELLO EXPERTS</p>
+                  <p className="text-sm font-bold text-slate-900 uppercase">Montello, WI 53949</p>
                 </div>
               </div>
 
               <div className="space-y-6 text-nowrap">
                 <div className="flex items-center gap-4 text-slate-600 font-bold uppercase tracking-tight text-xs">
                   <Clock className="w-5 h-5 text-indigo-600" />
-                  <span>Service Area: Baton Rouge • Baker • Central • Zachary • Denham Springs</span>
+                  <span>Service Area: Montello • Packwaukee • Oxford • Westfield • Princeton</span>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="bg-white rounded-[3rem] p-8 md:p-12 shadow-2xl border border-slate-100 relative group">
               <div className="absolute inset-0 bg-indigo-600/[0.02] rounded-[3rem] opacity-0 group-hover:opacity-100 transition-opacity" />
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tight relative z-10">Request a Pest Assessment</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tight relative z-10">Request a Plumbing Assessment</h3>
               <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -72,22 +72,22 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Service Type</label>
                   <select className="w-full h-14 rounded-2xl bg-slate-50 border-slate-100 px-6 font-medium text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <option>Subterranean Termite Treatment</option>
-                    <option>Rodent Exclusion & Trapping</option>
-                    <option>Mosquito & Tick Control</option>
-                    <option>Residential Pest Maintenance</option>
+                    <option>Emergency Pipe Repair</option>
+                    <option>Drain Cleaning & Jetting</option>
+                    <option>Water Heater Installation</option>
+                    <option>Residential Maintenance</option>
                   </select>
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Pest Issue Details</label>
-                  <Textarea placeholder="Describe the pest issue, affected areas, or signs of infestation in your Baton Rouge property..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Plumbing Issue Details</label>
+                  <Textarea placeholder="Describe the plumbing issue, affected fixtures, or signs of water damage in your Montello property..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-2xl font-bold uppercase tracking-widest text-sm shadow-xl shadow-indigo-900/20 transition-all hover:gap-4">
                   Submit Request <Send className="w-5 h-5" />
                 </Button>
                 <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest pt-4 italic">
-                  Rapid Pest Response Guaranteed in Baton Rouge, LA
+                  Rapid Plumbing Response Guaranteed in Montello, WI
                 </p>
               </form>
             </div>

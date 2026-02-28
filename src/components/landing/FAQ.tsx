@@ -3,28 +3,28 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How much does it cost to have pest control out?",
-    answer: "Professional pest control in Baton Rouge typically ranges from $150 to $300 for an initial visit. The cost is influenced by the type of pest, the size of your property, and whether you choose a one-time service or an ongoing maintenance plan."
+    question: "Do you offer 24/7 plumbing help in Montello?",
+    answer: "Yes, we provide round-the-clock emergency plumbing services in Montello and throughout Marquette County. Whether it's a burst pipe at midnight or a failing water heater on a Sunday, our rapid response team is ready to help."
   },
   {
-    question: "How to 100% get rid of mice?",
-    answer: "Eliminating mice requires a professional multi-step approach: identifying entry points, thorough structural exclusion (sealing holes), and strategic trapping to remove the existing population safely."
+    question: "How much does a plumber cost in Montello WI?",
+    answer: "Plumbing costs in Montello vary depending on the service. Standard small repairs typically range from $150 to $350. For larger projects like water heater installations or whole-house repiping, we provide free, detailed estimates."
   },
   {
-    question: "How many times does pest control come for bed bugs?",
-    answer: "Effective bed bug eradication in Baton Rouge usually requires 2 to 3 professional treatments. These are spaced about two weeks apart to ensure all life cycles, including newly hatched eggs, are fully eliminated."
+    question: "How do I prevent my pipes from freezing in the winter?",
+    answer: "Given Wisconsin's extreme winters, we recommend insulating all exposed pipes in crawlspaces or attics, keeping your thermostat at at least 55°F, and allowing faucets to drip slightly during record-breaking cold snaps."
   },
   {
-    question: "What smells do mice hate?",
-    answer: "Mice have a strong sense of smell and generally dislike peppermint oil, cloves, and vinegar. While these can be subtle deterrents, they are most effective when paired with professional exclusion services."
+    question: "Does Montello Plumbing Pros give free estimates?",
+    answer: "We offer free over-the-phone estimates for common plumbing issues. For more complex diagnostics requiring on-site inspection, a standard service fee may apply, which is often credited toward your repair."
   },
   {
-    question: "Is it worth doing pest control?",
-    answer: "Absolutely. Professional pest control prevents expensive structural damage (especially from termites), reduces health risks from pests like roaches and rodents, and provides long-term peace of mind."
+    question: "How often should I have my drains cleaned?",
+    answer: "In Marquette County, we recommend a professional drain cleaning every 18 to 24 months to prevent major blockages from tree roots or mineral buildup, especially in older historic homes."
   },
   {
-    question: "What is the cheapest way to get rid of rats?",
-    answer: "The most cost-effective method is prevention. Sealing entry points and maintaining strict sanitation can prevent an infestation. Once rats are present, professional trapping is the most reliable way to avoid recurring costs."
+    question: "What is the best way to detect a hidden pipe leak?",
+    answer: "If you notice a sudden spike in your water bill or damp spots on walls, it's time for professional leak detection. We use ultrasonic and thermal imaging technology to pinpoint leaks without unnecessary demolition."
   }
 ];
 
@@ -36,10 +36,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Pest Control <span className="text-indigo-600">in Baton Rouge LA FAQ</span>
+            Plumbing <span className="text-indigo-600">in Montello WI FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about professional pest removal, extermination costs, and local pest challenges in Baton Rouge, Louisiana.
+            Common questions about professional plumbing repairs, emergency costs, and local hydraulic challenges in Montello, Wisconsin.
           </p>
         </div>
 

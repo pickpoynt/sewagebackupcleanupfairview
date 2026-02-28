@@ -1,35 +1,35 @@
-import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
+import { ShieldCheck, Search, Activity, Droplets, Home, Zap } from "lucide-react";
 
 const servicesList = [
   {
     icon: Home,
-    title: "Termite Control",
-    description: "Our Baton Rouge specialists provide professional subterranean termite treatments and prevention to protect your Louisiana home's structural integrity."
+    title: "Emergency Pipe Repair",
+    description: "Our Montello specialists provide professional 24/7 emergency pipe repair and burst protection to safeguard your Marquette County home's integrity."
   },
   {
     icon: Search,
-    title: "Pest Inspections",
-    description: "Comprehensive home inspections designed to identify infestations of ants, roaches, and rodents before they become a major problem in the humid Capital City."
+    title: "Leak Detection",
+    description: "Comprehensive acoustic inspections designed to identify hidden leaks in historic granite quarry-era homes before they become costly floods."
   },
   {
     icon: Activity,
-    title: "Rodent Exclusion",
-    description: "We deploy advanced exclusion techniques to seal entry points and remove rats and mice from your Baton Rouge property permanently."
+    title: "Drain Cleaning",
+    description: "We deploy advanced hydro-jetting techniques to clear tree roots and scale from your Montello property's main lines permanently."
   },
   {
     icon: Zap,
-    title: "Emergency Service",
-    description: "Pest problems require immediate attention. We offer rapid response in East Baton Rouge Parish to halt infestations and begin safe removal."
+    title: "Rapid Response",
+    description: "Plumbing failures require immediate attention. We offer fast response in the town of Montello to halt water damage and begin repairs."
   },
   {
-    icon: Sprout,
-    title: "Eco-Friendly Treatment",
-    description: "Sustainable, kid and pet-friendly pest control solutions applied to keep your home safe while effectively eliminating seasonal pests."
+    icon: Droplets,
+    title: "Water Heaters",
+    description: "Expert installation and maintenance of high-efficiency water heaters, ensuring reliable hot water during Wisconsin's brutal winter months."
   },
   {
     icon: ShieldCheck,
-    title: "Mosquito Fogging",
-    description: "Industrial-grade mosquito control for your outdoor spaces, perfect for enjoying the warm Baton Rouge evenings without the buzz and bites."
+    title: "Frozen Pipe Thawing",
+    description: "Safe, professional electronic thawing services for frozen lines, preventing ruptures and restoring flow to your Marquette County property."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">pest control baton rouge</span>
+            Expert <span className="text-indigo-600">plumber montello wi</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Specialized pest removal and prevention solutions designed for Baton Rouge's unique humid climate. We restore your peace of mind and protect your Red Stick property.
+            Specialized hydraulic repair and installation solutions designed for Montello's unique seasonal demands. We protect your historic Marquette County property.
           </p>
         </div>
 
