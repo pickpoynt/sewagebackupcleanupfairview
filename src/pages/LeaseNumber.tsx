@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Scottsdale Trenchless Sewer Repair Pros</title>
-                <meta name="description" content="Replace this trenchless sewer repair phone number with your own business line in Scottsdale, AZ for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Nashville Brown Recluse Pest Control Pros</title>
+                <meta name="description" content="Replace this brown recluse pest control phone number with your own business line in Nashville, TN for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -28,8 +28,8 @@ const LeaseNumber = () => {
                             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4 uppercase tracking-tight">
                                 Lease This Phone Number
                             </h1>
-                            <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic text-nowrap">
-                                Run a trenchless repair business in Scottsdale AZ? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
+                            <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic">
+                                Run a pest control business in Nashville TN? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
                             </p>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const LeaseNumber = () => {
                             <ul className="space-y-5">
                                 {[
                                     "Your business phone number displayed site-wide",
-                                    "All inbound trenchless inquiries routed to you",
-                                    "Full local SEO benefit of an optimized Scottsdale landing page",
+                                    "All inbound pest control inquiries routed to you",
+                                    "Full local SEO benefit of an optimized Nashville landing page",
                                     "Exclusive placement — only one business at a time",
                                     "Month-to-month, no long-term contract",
                                     "Cancel anytime with 30 days notice",
@@ -73,13 +73,13 @@ const LeaseNumber = () => {
                                     <p className="text-slate-500 font-medium text-sm">per month · billed monthly</p>
                                 </div>
                                 <p className="text-slate-600 text-sm leading-relaxed italic mb-8">
-                                    To get started, simply email us at the address below. We'll confirm availability, swap in your number, and have you receiving trenchless sewer repair calls within 24 hours.
+                                    To get started, simply email us at the address below. We'll confirm availability, swap in your number, and have you receiving Nashville brown recluse calls within 24 hours.
                                 </p>
                             </div>
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Trenchless Sewer Repair Scottsdale AZ - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Brown Recluse Pest Control Nashville - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />

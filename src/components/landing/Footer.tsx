@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Scottsdale</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Trenchless Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Nashville</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Brown Recluse Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm text-nowrap">
-              Scottsdale's specialized team for professional <br /> trenchless repairs and landscaping protection. <br /> We provide expert CIPP and pipe bursting.
+              Nashville's specialized team for professional <br /> brown recluse extermination and home protection. <br /> We provide expert spider removal and prevention.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Trenchless Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Control Services</h4>
             <ul className="space-y-4">
               {[
-                "CIPP Pipe Lining",
-                "Pipe Bursting",
-                "Sewer Camera Inspection",
-                "Hydro Jetting",
-                "Drain Cleaning",
-                "Sewer Line Repair"
+                "Brown Recluse Removal",
+                "Spider Inspection",
+                "Whole House Spraying",
+                "Pest Prevention",
+                "Exterior Barriers",
+                "Infestation Treatment"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Scottsdale NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Nashville NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,8 +60,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">7014 E Camelback Rd</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Scottsdale, AZ 85251</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">Nashville, TN 37201</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -70,7 +69,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Inquiries</p>
-                  <a href="tel:8777921410" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(877) 792-1410</a>
+                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -88,18 +87,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the meticulous requirements of Scottsdale sewer infrastructure, utilizing high-grade resins and professional-grade trenchless protocols.
+              We specialize in the meticulous requirements of Nashville pest control protocols, utilizing high-grade safe sprays and professional-grade extermination protocols.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert No-Dig Restoration Available Across Scottsdale.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Spider Control Available Across Nashville.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Scottsdale Trenchless Sewer Repair Pros. All rights reserved. Professional No-Dig Repairs & Landscaping Protection.
+            © {new Date().getFullYear()} Nashville Brown Recluse Pest Control Pros. All rights reserved. Professional Spider Removal & Home Protection.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">

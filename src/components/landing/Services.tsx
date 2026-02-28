@@ -1,35 +1,35 @@
-import { ShieldCheck, Drill, Search, Clock, Zap, Hammer } from "lucide-react";
+import { ShieldCheck, Drill, Search, Clock, Zap, Hammer, Bug, Home, Shield, Activity, Target, Waves } from "lucide-react";
 
 const services = [
   {
-    icon: Drill,
-    title: "CIPP Pipe Lining",
-    description: "Our Scottsdale specialists provide professional no-dig pipe restoration using structural epoxy liners to safeguard your Arizona property's integrity."
-  },
-  {
-    icon: Hammer,
-    title: "Pipe Bursting",
-    description: "We deploy advanced pipe bursting techniques to replace collapsed lines with brand new HDPE piping for your Scottsdale property permanently."
-  },
-  {
-    icon: Clock,
-    title: "Emergency Sewer Repair",
-    description: "Sewer failures require immediate attention. We offer fast 24/7 response in the Scottsdale area to halt property damage and begin restoration."
+    icon: Bug,
+    title: "Brown Recluse Removal",
+    description: "Our Nashville specialists provide professional spider extermination using targeted treatments to safeguard your Tennessee property's integrity."
   },
   {
     icon: Search,
-    title: "Sewer Camera Inspection",
-    description: "High-definition video diagnostics allow us to pinpoint root intrusion and structural defects without ever breaking ground in your yard."
+    title: "Detailed Spider Inspection",
+    description: "We deploy advanced inspection techniques to find hidden nests and entry points in your Nashville home permanently."
   },
   {
-    icon: Zap,
-    title: "Hydro-Jetting Service",
-    description: "Industrial-grade water jetting removes decades of scale and desert root growth, prepping your lines for a perfect trenchless liner bond."
+    icon: Waves,
+    title: "Whole House Spraying",
+    description: "Spider infestations require thorough attention. We offer comprehensive spraying across the Nashville area to eliminate pests and protect your family."
   },
   {
-    icon: ShieldCheck,
-    title: "Commercial Trenchless",
-    description: "Minimize business downtime with our specialized commercial-grade no-dig solutions for Scottsdale retail and industrial facilities."
+    icon: Shield,
+    title: "Pest Prevention",
+    description: "Long-term solutions allow us to pinpoint entry points and apply barriers without ever compromising the safety of your living space."
+  },
+  {
+    icon: Target,
+    title: "Exterior Barriers",
+    description: "Professional-grade exterior treatments remove harborages and prevent spiders from entering, prepping your home for a pest-free environment."
+  },
+  {
+    icon: Activity,
+    title: "Infestation Treatment",
+    description: "Minimize risk with our specialized residential-grade removal solutions for Nashville homes and crawl spaces."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">trenchless sewer repair scottsdale az</span>
+            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">brown recluse pest control nashville</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Specialized no-dig repair and installation solutions designed for Scottsdale's unique soil demands. We protect your luxury Arizona property.
+            Specialized spider removal and prevention solutions designed for Nashville's unique climate. We protect your Tennessee home.
           </p>
         </div>
 

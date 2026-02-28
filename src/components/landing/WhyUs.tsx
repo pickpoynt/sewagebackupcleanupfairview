@@ -1,25 +1,25 @@
-import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
+import { ShieldCheck, Clock, Award, Hammer, Bug, Shield, Search, Zap, Target } from "lucide-react";
 
 const features = [
   {
-    icon: Clock,
-    title: "No-Dig Efficiency",
-    description: "Why dig up your Scottsdale hardscaping? Our trenchless methods restore your pipes from the inside, saving time and money."
+    icon: Bug,
+    title: "Eco-Safe Efficiency",
+    description: "Why risk your family's safety with generic sprays? Our targeted methods eliminate brown recluses from the source, saving time and worry."
   },
   {
-    icon: Hammer,
-    title: "Next-Gen Materials",
-    description: "From epoxy resins to HDPE piping, we use industrial-grade materials that resist corrosion and root intrusion for decades."
+    icon: Zap,
+    title: "Next-Gen Treatments",
+    description: "From specialized residuals to deep-crevice dusts, we use industrial-grade materials that provide a multi-month barrier against spiders."
   },
   {
     icon: Award,
-    title: "Maricopa County Certified",
-    description: "Fully licensed and insured specifically for trenchless sewer restoration in Arizona. Your luxury property is in expert hands."
+    title: "Nashville Certified",
+    description: "Fully licensed and insured specifically for residential pest control in Tennessee. Your Nashville home is in expert hands."
   },
   {
     icon: ShieldCheck,
-    title: "Lifetime Pipe Guarantee",
-    description: "We don't consider the job complete until your flow is 100% restored. We stand by our pipe lining and bursting work for life."
+    title: "Infestation Guarantee",
+    description: "We don't consider the job complete until your home is 100% spider-free. We stand by our extermination and prevention work for life."
   }
 ];
 
@@ -29,11 +29,11 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Trenchless</span> <br />
-            Experts in Scottsdale AZ
+            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Brown Recluse</span> <br />
+            Experts in Nashville TN
           </h2>
           <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto">
-            Providing Scottsdale and the surrounding Paradise Valley communities with specialized, no-dig sewer repair and property protection services.
+            Providing Nashville and the surrounding Tennessee communities with specialized, targeted brown recluse extermination and home protection services.
           </p>
         </div>
 
@@ -41,29 +41,29 @@ const WhyUs = () => {
           <div className="relative text-center">
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
-              src="/1.jpeg"
-              alt="Professional Trenchless Sewer Repair in Scottsdale AZ"
+              src="/2.jpeg"
+              alt="Professional Brown Recluse Pest Control in Nashville TN"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto"
             />
             <div className="absolute -bottom-8 -right-8 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl z-20 border border-indigo-500 max-w-[240px]">
               <p className="text-4xl font-bold mb-1">100%</p>
-              <p className="text-xs font-bold uppercase tracking-widest leading-tight">No-Dig Guarantee in Scottsdale</p>
+              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Spider-Free Guarantee in Nashville</p>
             </div>
           </div>
 
           <div className="space-y-8">
             {[
               {
-                title: "Preserve Your Landscaping",
-                desc: "Our trenchless technology eliminates the need for massive excavation, keeping your desert landscaping and pool decks perfectly intact."
+                title: "Safe Home Protection",
+                desc: "Our targeted technology eliminates the need for invasive over-spraying, keeping your family and pets perfectly safe."
               },
               {
-                title: "Desert Soil Expertise",
-                desc: "We understand how Scottsdale's unique caliche and expanding soils create specific challenges for buried sewer infrastructure."
+                title: "TN Climate Expertise",
+                desc: "We understand how Nashville's humid climate and seasonal shifts create specific challenges for brown recluse spider management."
               },
               {
                 title: "Accelerated Service",
-                desc: "Our technicians implement rapid-cure resins and specialized pull-systems, ensuring that your lines are back in service in hours, not days."
+                desc: "Our technicians implement rapid-action treatments and specialized detection systems, ensuring that your home is secure in hours."
               }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 group">
@@ -80,14 +80,14 @@ const WhyUs = () => {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to fix your sewer?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Scottsdale's Best</h4>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to fix your home?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Nashville's Best</h4>
                 </div>
                 <a
-                  href="tel:8777921410"
+                  href="tel:3238801224"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center w-full sm:w-auto text-nowrap"
                 >
-                  (877) 792-1410
+                  (323) 880-1224
                 </a>
               </div>
             </div>

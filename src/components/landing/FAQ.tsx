@@ -1,110 +1,110 @@
-import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, Info, CheckCircle, AlertCircle, TrendingUp, DollarSign, Home, Waves, Activity, Wrench, FileText, Scissors, LucideIcon } from "lucide-react";
+import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, Info, CheckCircle, AlertCircle, TrendingUp, DollarSign, Home, Waves, Activity, Wrench, FileText, Scissors, Target, LucideIcon } from "lucide-react";
 
 const faqs = [
   {
     icon: HelpCircle,
-    question: "What exactly is trenchless sewer repair?",
-    answer: "Trenchless sewer repair is a 'no-dig' method of restoring or replacing damaged sewer lines. Instead of digging a massive trench through your Scottsdale landscaping, we use small access points to insert a new liner or pull a new pipe through the old one."
+    question: "Is trenchless sewer repair worth it?",
+    answer: "Yes, it's highly worth it for preserving landscaping and saving long-term costs on Restoration."
   },
   {
-    icon: Search,
-    question: "How does CIPP lining work?",
-    answer: "Cured-In-Place Pipe (CIPP) lining involves saturating a felt tube with epoxy resin, pulling it into the damaged pipe, and inflating it. Once the resin cures, it creates a jointless, 'pipe-within-a-pipe' that is as strong as new PVC."
-  },
-  {
-    icon: Hammer,
-    question: "Is pipe bursting better than lining?",
-    answer: "Pipe bursting is preferred when the original pipe is collapsed or needs to be upsized. We pull a new HDPE pipe through the old one, 'bursting' the old pipe outward. Lining is better for pipes that are still structurally intact but have leaks or roots."
-  },
-  {
-    icon: Clock,
-    question: "How long does a trenchless repair last?",
-    answer: "Most trenchless materials, especially HDPE and epoxy resins, are rated for a 50-year lifespan. Some studies suggest they can last up to 100 years, as they are immune to the corrosion that kills cast iron."
-  },
-  {
-    icon: Home,
-    question: "Will it damage my Scottsdale landscaping?",
-    answer: "No! This is the primary benefit. We can save your expensive desert hardscaping, pavers, and pool decks in Scottsdale. We typically only need one or two small access pits."
-  },
-  {
-    icon: Activity,
-    question: "Can trenchless fix root intrusion?",
-    answer: "Yes. By creating a seamless, jointless pipe, we eliminate the gaps where Scottsdale's desert vegetation roots typically enter the system. Roots cannot penetrate the new epoxy or HDPE barrier."
+    icon: AlertCircle,
+    question: "What are the disadvantages of trenchless pipe lining?",
+    answer: "The main disadvantage is that it cannot fix pipes that have completely collapsed or have significant back-grade issues."
   },
   {
     icon: DollarSign,
-    question: "Is it cheaper than traditional digging?",
-    answer: "While the technology itself can be more expensive, you save thousands by NOT having to replace your driveway, landscaping, or interior flooring after the repair is done."
+    question: "Will insurance pay for a new sewer line?",
+    answer: "Coverage varies by policy, but standard homeowners insurance typically only covers sudden, accidental damage, not wear and tear."
   },
   {
-    icon: Zap,
-    question: "How long does the process take?",
-    answer: "Most Scottsdale residential trenchless projects are completed in a single day. Traditional excavation can take up to a week and leave your property in disarray."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Is trenchless repair safe for old pipes?",
-    answer: "Absolutely. It's often the ONLY safe way to repair old, brittle clay or cast iron pipes without causing them to shatter completely during excavation."
-  },
-  {
-    icon: AlertCircle,
-    question: "What are the signs I need sewer repair?",
-    answer: "Look for frequent backups, slow drains, gurgling noises from toilets, or unusually lush green patches in your Scottsdale yard (which indicates a leak)."
-  },
-  {
-    icon: Wrench,
-    question: "Does trenchless work for cast iron pipes?",
-    answer: "Yes. Cast iron often suffers from 'channeling' or scale buildup. We clean the pipe via hydro-jetting and then line it to create a smooth, permanent interior."
-  },
-  {
-    icon: AlertCircle,
-    question: "Can it fix a collapsed sewer line?",
-    answer: "If the line is fully collapsed, pipe bursting is the solution. If it's only partially collapsed or cracked, CIPP lining can often bridge the gap."
-  },
-  {
-    icon: Award,
-    question: "What is the warranty on trenchless?",
-    answer: "Scottsdale Trenchless Pros offers a lifetime warranty on the structural integrity of our liners and a 10-year warranty on the installation workmanship."
-  },
-  {
-    icon: Waves,
-    question: "Is hydro-jetting required first?",
-    answer: "Yes. We must remove all debris, grease, and scale to ensure the new liner bonds perfectly to the host pipe. It's included in our standard Scottsdale service package."
+    icon: Clock,
+    question: "How long does a trenchless sewer line last?",
+    answer: "Most trenchless liners and HDPE pipes are rated for a 50-year lifespan, often lasting much longer."
   },
   {
     icon: TrendingUp,
-    question: "Will it increase my home value?",
-    answer: "Yes. Having a certified 'restored' sewer line with a 50-year lifespan is a major selling point in the Scottsdale real estate market, often documented in home inspections."
-  },
-  {
-    icon: Search,
-    question: "How do I know if I'm a candidate?",
-    answer: "We start with a high-definition camera inspection. This allows us to see the exact condition of your Scottsdale pipes and recommend the best trenchless method."
+    question: "What is the average cost to repair a sewer line?",
+    answer: "Costs vary based on length and depth, but trenchless repairs typically range from $4,000 to $12,000."
   },
   {
     icon: Droplets,
-    question: "Does it work under pool decks?",
-    answer: "Yes! Scottsdale homes often have sewer lines running right under pool areas. Trenchless allows us to fix these lines without ever touching your pool deck."
+    question: "What's the best way to completely clean out a sewer line?",
+    answer: "Hydro-jetting is the most effective method, using high-pressure water to clear scale, grease, and roots."
   },
   {
     icon: Info,
-    question: "What kind of resin is used?",
-    answer: "We use industrial-grade, 100% solids epoxy resins. These are non-toxic once cured and are designed specifically for long-term underground hydraulic environments."
+    question: "Why is PVC not allowed in homes?",
+    answer: "PVC is often restricted for interior drain lines in some jurisdictions due to fire safety concerns and noise levels."
   },
   {
-    icon: Scissors,
-    question: "Is the new pipe smaller?",
-    answer: "The liner reduces the diameter by only a few millimeters (about 5%). However, because the surface is now perfectly smooth, the flow capacity actually increases."
+    icon: Target,
+    question: "Why is pipe relining so expensive?",
+    answer: "The cost reflects specialized equipment, high-grade resin materials, and the expert training required for the process."
+  },
+  {
+    icon: Home,
+    question: "What's better, a French drain or a trench drain?",
+    answer: "French drains are best for groundwater issues, while trench drains are designed for surface water runoff."
   },
   {
     icon: FileText,
-    question: "Does it require a permit in Scottsdale?",
-    answer: "Yes, Scottsdale and Maricopa County require permits for sewer work. We handle all the permitting and inspections as part of our full-service offering."
+    question: "Can you sell a house with cast iron pipes?",
+    answer: "Yes, but many buyers will request a sewer scope, and older pipes can sometimes complicate financing or insurance."
+  },
+  {
+    icon: Search,
+    question: "What are four signs that your sewer line is broken?",
+    answer: "Signs include frequent backups, slow drains, sewage smells, and unusually lush patches of grass."
+  },
+  {
+    icon: Activity,
+    question: "Do 100 year old houses have lead pipes?",
+    answer: "Many older homes originally had lead service lines or lead solder, which should be inspected and replaced."
+  },
+  {
+    icon: ShieldCheck,
+    question: "Will homeowners cover sewer line replacement?",
+    answer: "Usually not unless you have a specific service line endorsement added to your property insurance."
+  },
+  {
+    icon: Wrench,
+    question: "Are trenchless sewer repairs worth it?",
+    answer: "Absolutely, they save your yard and provide a permanent solution without the mess of excavation."
+  },
+  {
+    icon: HelpCircle,
+    question: "Who is responsible for a broken sewer pipe?",
+    answer: "Homeowners are generally responsible for the line from the house to the city main connection."
+  },
+  {
+    icon: Droplets,
+    question: "What is the healthiest pipe for drinking water?",
+    answer: "Copper and PEX are currently considered the best options for modern residential water delivery."
   },
   {
     icon: CheckCircle,
-    question: "Why choose Scottsdale Trenchless Pros?",
-    answer: "We are the local specialists in no-dig technology. We don't just do general plumbing; we focus exclusively on trenchless restoration for Scottsdale properties."
+    question: "What is better, PVC or PEX?",
+    answer: "PEX is better for water supply due to flexibility and freeze resistance, while PVC is standard for drainage."
+  },
+  {
+    icon: AlertCircle,
+    question: "Will boiling water hurt PVC pipes?",
+    answer: "Constant exposure to boiling water can soften or damage PVC over time; it's best to let water cool slightly."
+  },
+  {
+    icon: TrendingUp,
+    question: "What decreases property value the most?",
+    answer: "Major structural issues, including failing sewer lines, can significantly decrease a property's market value."
+  },
+  {
+    icon: Clock,
+    question: "What year did plumbers stop using cast iron pipes?",
+    answer: "The transition to PVC began in the 1960s, and cast iron was mostly phased out of residential use by the 1980s."
+  },
+  {
+    icon: Award,
+    question: "Are old bathtubs worth anything?",
+    answer: "Antique cast iron clawfoot tubs can be quite valuable to restorers and collectors if they are in good condition."
   }
 ];
 
@@ -128,10 +128,10 @@ const FAQ = () => {
             Expert Knowledge Base
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Learn About <span className="text-indigo-600">Trenchless Technology</span>
+            Nashville <span className="text-indigo-600">Spider Control FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Everything you need to know about no-dig sewer repair in Scottsdale. Have more questions? Call our experts at (877) 792-1410.
+            Everything you need to know about Nashville brown recluse pest control. Have more questions? Call our experts at (323) 880-1224.
           </p>
         </div>
 
