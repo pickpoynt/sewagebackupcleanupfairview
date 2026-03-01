@@ -14,7 +14,13 @@ const links = [
   { text: "Raccoon Control Southwest Ranches", url: "https://raccooncontrolsouthwestranches.vercel.app/" },
   { text: "Wildlife Removal Gastonia NC", url: "https://wildliferemovalgastonianc.vercel.app/" },
   { text: "Wildlife Removal Douglasville GA", url: "https://wildliferemovaldouglasvillega.vercel.app/" },
-  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" }
+  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
+  { text: "Mold Remediation Eau Claire WI", url: "https://moldremediationeauclairewi.vercel.app/" },
+  { text: "Toxic Black Mold Cleanup Gulf Breeze", url: "https://toxicblackmoldcleanupgulfbreeze.vercel.app/" },
+  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
+  { text: "Plumber Montello WI", url: "https://plumbermontellowi.vercel.app/" },
+  { text: "Trenchless Sewer Repair Scottsdale AZ", url: "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" },
+  { text: "Brown Recluse Pest Control Nashville", url: "https://brownreclusepestcontrolnashville.vercel.app/" }
 ];
 
 const RandomLinks = () => {

@@ -1,35 +1,35 @@
-import { ShieldCheck, Drill, Search, Clock, Zap, Hammer, Bug, Home, Shield, Activity, Target, Waves } from "lucide-react";
+import { ShieldCheck, Drill, Search, Clock, Zap, Hammer, Flame, Home, Shield, Activity, Target, Waves } from "lucide-react";
 
 const services = [
   {
-    icon: Bug,
-    title: "Brown Recluse Removal",
-    description: "Our Nashville specialists provide professional spider extermination using targeted treatments to safeguard your Tennessee property's integrity."
+    icon: Flame,
+    title: "Water Heater Repair",
+    description: "Our Beaverton specialists diagnose and repair all water heater issues — from pilot light failures and thermostat malfunctions to sediment buildup and pressure relief valve problems."
   },
   {
     icon: Search,
-    title: "Detailed Spider Inspection",
-    description: "We deploy advanced inspection techniques to find hidden nests and entry points in your Nashville home permanently."
+    title: "Diagnostic Inspection",
+    description: "We deploy advanced inspection techniques to identify the root cause of your water heater problem quickly, saving you time and money in Beaverton, OR."
   },
   {
     icon: Waves,
-    title: "Whole House Spraying",
-    description: "Spider infestations require thorough attention. We offer comprehensive spraying across the Nashville area to eliminate pests and protect your family."
+    title: "Tankless Water Heater Service",
+    description: "Tankless systems require specialized expertise. We service, descale, and repair all major tankless water heater brands across the Beaverton and Washington County area."
   },
   {
     icon: Shield,
-    title: "Pest Prevention",
-    description: "Long-term solutions allow us to pinpoint entry points and apply barriers without ever compromising the safety of your living space."
+    title: "Water Heater Replacement",
+    description: "When repair isn't cost-effective, we provide fast, professional water heater replacement with same-day installation available throughout Beaverton."
   },
   {
     icon: Target,
-    title: "Exterior Barriers",
-    description: "Professional-grade exterior treatments remove harborages and prevent spiders from entering, prepping your home for a pest-free environment."
+    title: "Annual Maintenance",
+    description: "Extend your water heater's lifespan with our professional annual flush, anode rod inspection, and full system tune-up — the Beaverton homeowner's best investment."
   },
   {
     icon: Activity,
-    title: "Infestation Treatment",
-    description: "Minimize risk with our specialized residential-grade removal solutions for Nashville homes and crawl spaces."
+    title: "Emergency Hot Water Repair",
+    description: "No hot water is a household emergency. Our Beaverton team offers rapid-response emergency water heater repair 24/7 across Washington County."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">brown recluse pest control nashville</span>
+            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">water heater repair beaverton</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Specialized spider removal and prevention solutions designed for Nashville's unique climate. We protect your Tennessee home.
+            Specialized water heater repair and replacement solutions designed for Beaverton's hard water conditions. We protect your Oregon home's comfort.
           </p>
         </div>
 

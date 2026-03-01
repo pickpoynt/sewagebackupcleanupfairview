@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ShieldCheck } from "lucide-react";
+import { Droplets } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,14 +19,14 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
             <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-indigo-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
+              <Droplets className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Nashville
+                Beaverton
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Brown Recluse <span className="text-[10px] opacity-70 px-1 text-nowrap">Pros</span>
+                Water Heater <span className="text-[10px] opacity-70 px-1 text-nowrap">Pros</span>
               </span>
             </div>
           </div>
@@ -44,11 +44,11 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 PEST CONTROL HOTLINE</p>
-              <a href="tel:3238801224" className="text-3xl font-bold text-indigo-400 block mb-6">(323) 880-1224</a>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 WATER HEATER HOTLINE</p>
+              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">(877) 792-1410</a>
             </div>
             <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:3238801224">Call Now</a>
+              <a href="tel:8777921410">Call Now</a>
             </Button>
           </div>
 
@@ -66,10 +66,10 @@ const Header = () => {
             ))}
             <a href="/lease-my-number" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
             <div className="pt-6">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 PEST CONTROL HOTLINE</p>
-              <a href="tel:3238801224" className="text-3xl font-bold text-indigo-400 block mb-6">(323) 880-1224</a>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 WATER HEATER HOTLINE</p>
+              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">(877) 792-1410</a>
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="tel:3238801224">Call Specialist</a>
+                <a href="tel:8777921410">Call Specialist</a>
               </Button>
             </div>
           </div>

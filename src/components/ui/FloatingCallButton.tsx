@@ -6,7 +6,7 @@ const FloatingCallButton = () => {
             <a
                 href="tel:8777921410"
                 className="group relative flex items-center justify-center w-16 h-16 bg-indigo-600 text-white rounded-2xl shadow-2xl hover:bg-indigo-700 transition-all duration-300 hover:scale-110 active:scale-95"
-                aria-label="Call Scottsdale Trenchless Sewer Repair Pros"
+                aria-label="Call Beaverton Water Heater Repair Pros"
             >
                 <div className="absolute inset-0 bg-indigo-600 rounded-2xl animate-ping opacity-20 group-hover:hidden" />
                 <Phone className="w-8 h-8 relative z-10 group-hover:rotate-12 transition-transform" />
@@ -18,7 +18,7 @@ const FloatingCallButton = () => {
             </a>
             <div className="flex items-center gap-2 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full border border-slate-200 shadow-sm animate-pulse">
                 <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
-                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Scottsdale Trenchless Team Available Now</span>
+                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Beaverton Water Heater Team Available Now</span>
             </div>
         </div>
     );

@@ -2,109 +2,94 @@ import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, I
 
 const faqs = [
   {
-    icon: HelpCircle,
-    question: "Is trenchless sewer repair worth it?",
-    answer: "Yes, it's highly worth it for preserving landscaping and saving long-term costs on Restoration."
-  },
-  {
-    icon: AlertCircle,
-    question: "What are the disadvantages of trenchless pipe lining?",
-    answer: "The main disadvantage is that it cannot fix pipes that have completely collapsed or have significant back-grade issues."
-  },
-  {
     icon: DollarSign,
-    question: "Will insurance pay for a new sewer line?",
-    answer: "Coverage varies by policy, but standard homeowners insurance typically only covers sudden, accidental damage, not wear and tear."
-  },
-  {
-    icon: Clock,
-    question: "How long does a trenchless sewer line last?",
-    answer: "Most trenchless liners and HDPE pipes are rated for a 50-year lifespan, often lasting much longer."
-  },
-  {
-    icon: TrendingUp,
-    question: "What is the average cost to repair a sewer line?",
-    answer: "Costs vary based on length and depth, but trenchless repairs typically range from $4,000 to $12,000."
-  },
-  {
-    icon: Droplets,
-    question: "What's the best way to completely clean out a sewer line?",
-    answer: "Hydro-jetting is the most effective method, using high-pressure water to clear scale, grease, and roots."
-  },
-  {
-    icon: Info,
-    question: "Why is PVC not allowed in homes?",
-    answer: "PVC is often restricted for interior drain lines in some jurisdictions due to fire safety concerns and noise levels."
-  },
-  {
-    icon: Target,
-    question: "Why is pipe relining so expensive?",
-    answer: "The cost reflects specialized equipment, high-grade resin materials, and the expert training required for the process."
-  },
-  {
-    icon: Home,
-    question: "What's better, a French drain or a trench drain?",
-    answer: "French drains are best for groundwater issues, while trench drains are designed for surface water runoff."
-  },
-  {
-    icon: FileText,
-    question: "Can you sell a house with cast iron pipes?",
-    answer: "Yes, but many buyers will request a sewer scope, and older pipes can sometimes complicate financing or insurance."
-  },
-  {
-    icon: Search,
-    question: "What are four signs that your sewer line is broken?",
-    answer: "Signs include frequent backups, slow drains, sewage smells, and unusually lush patches of grass."
-  },
-  {
-    icon: Activity,
-    question: "Do 100 year old houses have lead pipes?",
-    answer: "Many older homes originally had lead service lines or lead solder, which should be inspected and replaced."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Will homeowners cover sewer line replacement?",
-    answer: "Usually not unless you have a specific service line endorsement added to your property insurance."
-  },
-  {
-    icon: Wrench,
-    question: "Are trenchless sewer repairs worth it?",
-    answer: "Absolutely, they save your yard and provide a permanent solution without the mess of excavation."
+    question: "How much should it cost to have a water heater replaced?",
+    answer: "Water heater replacement in Beaverton typically costs $800–$2,500 installed, depending on the unit type. Tank water heaters are cheaper upfront; tankless units cost more but last longer and save on energy bills."
   },
   {
     icon: HelpCircle,
-    question: "Who is responsible for a broken sewer pipe?",
-    answer: "Homeowners are generally responsible for the line from the house to the city main connection."
-  },
-  {
-    icon: Droplets,
-    question: "What is the healthiest pipe for drinking water?",
-    answer: "Copper and PEX are currently considered the best options for modern residential water delivery."
-  },
-  {
-    icon: CheckCircle,
-    question: "What is better, PVC or PEX?",
-    answer: "PEX is better for water supply due to flexibility and freeze resistance, while PVC is standard for drainage."
+    question: "Is it worth it to repair a hot water heater?",
+    answer: "If the unit is under 10 years old, repair is usually worth it. For units older than that, replacement is often more cost-effective — especially in Beaverton where hard water accelerates wear."
   },
   {
     icon: AlertCircle,
-    question: "Will boiling water hurt PVC pipes?",
-    answer: "Constant exposure to boiling water can soften or damage PVC over time; it's best to let water cool slightly."
-  },
-  {
-    icon: TrendingUp,
-    question: "What decreases property value the most?",
-    answer: "Major structural issues, including failing sewer lines, can significantly decrease a property's market value."
-  },
-  {
-    icon: Clock,
-    question: "What year did plumbers stop using cast iron pipes?",
-    answer: "The transition to PVC began in the 1960s, and cast iron was mostly phased out of residential use by the 1980s."
+    question: "What is the most common problem with a hot water heater?",
+    answer: "The most common issues are sediment buildup from hard water, a failed heating element, a faulty thermostat, or a worn-out anode rod — all of which our Beaverton team repairs daily."
   },
   {
     icon: Award,
-    question: "Are old bathtubs worth anything?",
-    answer: "Antique cast iron clawfoot tubs can be quite valuable to restorers and collectors if they are in good condition."
+    question: "Who offers the best water heater repair?",
+    answer: "Beaverton Water Heater Repair Pros offers certified, licensed, and insured service with same-day availability, transparent pricing, and a 100% satisfaction guarantee across Washington County."
+  },
+  {
+    icon: Home,
+    question: "How much does Home Depot charge to replace a water heater?",
+    answer: "Home Depot's installation fees typically range from $300–$600 on top of the unit cost. However, their scheduling is often slow. Our Beaverton team offers competitive pricing with faster same-day service."
+  },
+  {
+    icon: Clock,
+    question: "What is the life expectancy of a water heater?",
+    answer: "Traditional tank water heaters last 8–12 years; tankless units last 15–20 years. Beaverton's hard water can shorten tank lifespan if annual flushing and anode rod maintenance are neglected."
+  },
+  {
+    icon: Activity,
+    question: "What are the first signs of a water heater going bad?",
+    answer: "Warning signs include rumbling noises, rust-colored water, inconsistent hot water, water pooling around the base, and unusually high energy bills — call us in Beaverton before it becomes an emergency."
+  },
+  {
+    icon: DollarSign,
+    question: "What is the average labor cost to install a 50 gallon gas water heater?",
+    answer: "Labor for a 50-gallon gas water heater installation in the Beaverton area typically runs $200–$500, depending on complexity, access, and whether gas line modifications are needed."
+  },
+  {
+    icon: ShieldCheck,
+    question: "Will homeowners insurance cover a broken water heater?",
+    answer: "Usually not for wear-and-tear failure, but if your water heater causes sudden water damage due to a burst, your homeowners policy may cover the resulting damage. Always check with your insurer."
+  },
+  {
+    icon: Waves,
+    question: "What happens if you never flush your water heater?",
+    answer: "Skipping annual flushes allows sediment to harden at the tank bottom, reducing efficiency, increasing energy costs, and eventually causing premature tank failure — a very common issue in Beaverton's hard water zones."
+  },
+  {
+    icon: Target,
+    question: "What brand of water heater lasts the longest?",
+    answer: "Brands like Rheem, AO Smith, and Navien consistently rank highest for longevity. Our Beaverton technicians work with all major brands and can recommend the best fit for your OR home's water quality."
+  },
+  {
+    icon: Wrench,
+    question: "Can I repair a water heater myself?",
+    answer: "Minor fixes like relighting a pilot light are DIY-safe, but replacing elements, thermostats, or gas components requires a licensed plumber in Oregon. Incorrect repairs can void warranties and create safety hazards."
+  },
+  {
+    icon: DollarSign,
+    question: "What does a plumber charge to replace a hot water heater?",
+    answer: "Plumber labor for water heater replacement in the Beaverton area typically ranges from $150–$450. Our Beaverton Water Heater Repair Pros offer competitive all-in pricing with no hidden fees."
+  },
+  {
+    icon: FileText,
+    question: "Are there tax credits for new water heaters?",
+    answer: "Yes! ENERGY STAR-certified heat pump water heaters and certain tankless models qualify for federal tax credits of up to 30% (capped at $600). Ask our Beaverton team for qualifying units."
+  },
+  {
+    icon: TrendingUp,
+    question: "What is the average price for a 50 gallon hot water heater?",
+    answer: "A 50-gallon tank water heater in 2024 costs $500–$1,200 for the unit itself. Total installed cost in Beaverton with labor runs $900–$1,800 depending on the brand and site conditions."
+  },
+  {
+    icon: Home,
+    question: "How much does Lowe's charge to put in a hot water tank?",
+    answer: "Lowe's installation packages typically cost $199–$399 on top of the unit price. Their lead times can be 1–2 weeks. Our Beaverton pros offer same-day or next-day service at comparable prices."
+  },
+  {
+    icon: Info,
+    question: "What is the common reason for a water heater not working?",
+    answer: "The most frequent culprits are a tripped circuit breaker, a failed heating element, a faulty thermostat, or a clogged burner on gas units. Our Beaverton team diagnoses these in under an hour."
+  },
+  {
+    icon: Home,
+    question: "How much does Home Depot charge to change out a water heater?",
+    answer: "Home Depot's total cost to swap a water heater averages $1,200–$2,500 installed, including the unit. Scheduling is slower and customer service is inconsistent compared to a dedicated local Beaverton specialist."
   }
 ];
 
@@ -128,10 +113,10 @@ const FAQ = () => {
             Expert Knowledge Base
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Nashville <span className="text-indigo-600">Spider Control FAQ</span>
+            Beaverton <span className="text-indigo-600">Water Heater FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Everything you need to know about Nashville brown recluse pest control. Have more questions? Call our experts at (323) 880-1224.
+            Everything you need to know about water heater repair in Beaverton. Have more questions? Call our experts at (877) 792-1410.
           </p>
         </div>
 

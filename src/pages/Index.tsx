@@ -15,32 +15,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>brown recluse pest control nashville | Nashville Brown Recluse Pest Control Pros</title>
-        <meta name="description" content="Professional brown recluse pest control nashville. Expert spider extermination, infestation removal, and prevention. Call (323) 880-1224 for a free estimate in Nashville, TN." />
-        <meta name="keywords" content="brown recluse pest control nashville, Nashville spider extermination, brown recluse removal Nashville, pest control Tennessee, spider infestation Nashville" />
-        <link rel="canonical" href="https://brownreclusepestcontrolnashville.vercel.app/" />
+        <title>water heater repair beaverton | Beaverton Water Heater Repair Pros</title>
+        <meta name="description" content="Professional water heater repair beaverton. Expert tank & tankless water heater repair, replacement, and maintenance. Call (877) 792-1410 for a free estimate in Beaverton, OR." />
+        <meta name="keywords" content="water heater repair beaverton, beaverton water heater replacement, tankless water heater beaverton, hot water heater repair beaverton OR, water heater maintenance beaverton" />
+        <link rel="canonical" href="https://waterheaterrepairbeaverton.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Nashville Brown Recluse Pest Control Pros",
+            "name": "Beaverton Water Heater Repair Pros",
             "image": "/4.jpeg",
-            "@id": "https://brownreclusepestcontrolnashville.vercel.app/",
-            "url": "https://brownreclusepestcontrolnashville.vercel.app/",
-            "telephone": "(323) 880-1224",
+            "@id": "https://waterheaterrepairbeaverton.vercel.app/",
+            "url": "https://waterheaterrepairbeaverton.vercel.app/",
+            "telephone": "(877) 792-1410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Nashville, TN",
-              "addressLocality": "Nashville",
-              "addressRegion": "TN",
-              "postalCode": "37201",
+              "streetAddress": "Beaverton, OR",
+              "addressLocality": "Beaverton",
+              "addressRegion": "OR",
+              "postalCode": "97005",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.1627",
-              "longitude": "-86.7816"
+              "latitude": "45.4871",
+              "longitude": "-122.8037"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,32 +55,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Brown Recluse Pest Control",
+            "serviceType": "Water Heater Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Nashville Brown Recluse Pest Control Pros"
+              "name": "Beaverton Water Heater Repair Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Nashville, TN"
+              "name": "Beaverton, OR"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Spider Control Services",
+              "name": "Water Heater Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brown Recluse Extermination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spider Inspection" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pest Prevention" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole House Spraying" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Replacement" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tankless Water Heater Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Maintenance" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="brown recluse pest control nashville | Nashville Brown Recluse Pest Control Pros" />
-        <meta property="og:description" content="Expert brown recluse pest control in Nashville, TN. Professional spider extermination and long-term prevention. Call (323) 880-1224!" />
+        <meta property="og:title" content="water heater repair beaverton | Beaverton Water Heater Repair Pros" />
+        <meta property="og:description" content="Expert water heater repair in Beaverton, OR. Professional tank & tankless water heater services. Call (877) 792-1410!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://brownreclusepestcontrolnashville.vercel.app/" />
+        <meta property="og:url" content="https://waterheaterrepairbeaverton.vercel.app/" />
         <meta property="og:image" content="/4.jpeg" />
       </Helmet>
 
@@ -89,19 +89,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              BROWN RECLUSE PEST CONTROL <br />
-              <span className="text-white drop-shadow-sm uppercase">in NASHVILLE TN</span>
+              WATER HEATER REPAIR <br />
+              <span className="text-white drop-shadow-sm uppercase">in BEAVERTON OR</span>
             </>
           }
-          subtitle="Nashville's designated specialists in professional brown recluse spider extermination and infestation prevention. From downtown Nashville to the surrounding Tennessee areas, we protect your home with advanced pest control technology."
+          subtitle="Beaverton's trusted specialists in professional water heater repair, replacement, and maintenance. From downtown Beaverton to the surrounding Washington County areas, we restore your hot water fast with advanced diagnostics and certified plumbing expertise."
           image="/4.jpeg"
           overlayImage="/1.jpeg"
-          badge="NASHVILLE BROWN RECLUSE PROS"
-          phone="(323) 880-1224"
+          badge="BEAVERTON WATER HEATER PROS"
+          phone="8777921410"
           features={[
-            { icon: ShieldCheck, text: "Expert Spider Control" },
-            { icon: Zap, text: "Rapid Removal" },
-            { icon: Droplets, text: "Safe & Effective Sprays" }
+            { icon: ShieldCheck, text: "Certified Repair" },
+            { icon: Zap, text: "Same-Day Service" },
+            { icon: Droplets, text: "Tank & Tankless" }
           ]}
         />
         <Services />
@@ -114,10 +114,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://pestcontrolbatonrouge.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">How much is an exterminator for brown recluse spiders?</a>
-              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Can exterminators get rid of brown recluse spiders?</a>
-              <a href="https://wildliferemovaldouglasvillega.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Should I call an exterminator if I see one brown recluse?</a>
-              <a href="https://toxicblackmoldcleanupgulfbreeze.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Are brown recluse spiders in Nashville, Tennessee?</a>
+              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">How much does pipe leak repair cost in Modesto?</a>
+              <a href="https://plumbermontellowi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Best plumber services in Montello WI</a>
+              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Trenchless sewer repair options in Scottsdale AZ</a>
+              <a href="https://moldremediationeauclairewi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Mold remediation specialists in Eau Claire WI</a>
             </div>
           </div>
         </section>
