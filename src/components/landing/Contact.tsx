@@ -1,4 +1,4 @@
-import { ShieldCheck, Phone, MapPin, Mail, Clock, Send } from "lucide-react";
+import { ShieldCheck, Phone, MapPin, Mail, Clock, Send, Radio, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact" className="py-24 bg-slate-50 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-indigo-600/20 to-transparent" />
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 text-center lg:text-left">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
 
@@ -17,79 +17,79 @@ const Contact = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
                   <ShieldCheck className="w-4 h-4" />
-                  Boonton Repiping Safety
+                  Boonton Leak Protection
                 </div>
-                <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                  Protect Your Property <br />
-                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">cast iron pipe replacement boonton</span>
+                <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
+                  Stop Foundation <br />
+                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">Slab Damage in Boonton</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-                  Professional Boonton repiping specialists ready to safely replace failing cast iron and protect your property. Urgent response available for backups, collapses, and scale buildup.
+                  Leading Boonton specialists in non-invasive slab leak detection. We protect your home's value and foundation from underground water damage. Call (877) 792-1410 for a precision inspection today.
                 </p>
               </div>
 
               <div className="grid sm:grid-cols-2 gap-8">
-                <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50">
-                  <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
+                <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-1 transition-transform">
+                  <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4 mx-auto lg:mx-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1 text-nowrap">REPIPING HOTLINE</p>
-                  <a href="tel:8777921410" className="text-xl font-bold text-slate-900">(877) 792-1410</a>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">DETECTION HOTLINE</p>
+                  <a href="tel:8777921410" className="text-xl font-bold text-indigo-600 underline decoration-indigo-200 decoration-4 underline-offset-4">(877) 792-1410</a>
                 </div>
-                <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50">
-                  <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
+                <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-1 transition-transform">
+                  <div className="w-12 h-12 rounded-2xl bg-slate-900 flex items-center justify-center mb-4 mx-auto lg:mx-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">BOONTON EXPERTS</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap">BOONTON SERVICE AREA</p>
                   <p className="text-sm font-bold text-slate-900 uppercase">Boonton, NJ 07005</p>
                 </div>
               </div>
 
-              <div className="space-y-6 text-nowrap">
-                <div className="flex items-center gap-4 text-slate-600 font-bold uppercase tracking-tight text-xs">
+              <div className="space-y-6 pt-4">
+                <div className="flex items-center gap-4 text-slate-600 font-bold uppercase tracking-tighter text-xs justify-center lg:justify-start">
                   <Clock className="w-5 h-5 text-indigo-600" />
-                  <span>Service Area: Boonton • Mountain Lakes • Montville • Denville</span>
+                  <span>Boonton NJ Specialists • Emergency Leak Locating</span>
                 </div>
               </div>
 
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white rounded-[3rem] p-8 md:p-12 shadow-2xl border border-slate-100 relative group">
-              <div className="absolute inset-0 bg-indigo-600/[0.02] rounded-[3rem] opacity-0 group-hover:opacity-100 transition-opacity" />
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tight relative z-10">Request a Pipe Assessment</h3>
+            <div className="bg-white rounded-[3rem] p-8 md:p-12 shadow-2xl border border-slate-100 relative group overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/5 rounded-full -translate-y-12 translate-x-12" />
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tighter relative z-10 italic">Request Precision Inspection</h3>
               <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 gap-6 text-left">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Full Name</label>
-                    <Input placeholder="Your Name" className="h-14 rounded-2xl bg-slate-50 border-slate-100 px-6 font-medium focus:ring-indigo-500" />
+                    <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Resident Name</label>
+                    <Input placeholder="Full Name" className="h-14 rounded-2xl bg-slate-50 border-white px-6 font-bold focus:ring-indigo-500 shadow-inner" />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Phone Number</label>
-                    <Input placeholder="Your Number" className="h-14 rounded-2xl bg-slate-50 border-slate-100 px-6 font-medium focus:ring-indigo-500" />
+                    <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Direct Number</label>
+                    <Input placeholder="Phone" className="h-14 rounded-2xl bg-slate-50 border-white px-6 font-bold focus:ring-indigo-500 shadow-inner" />
                   </div>
                 </div>
-                <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Service Type</label>
-                  <select className="w-full h-14 rounded-2xl bg-slate-50 border-slate-100 px-6 font-medium text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <option>Sewer Line Replacement</option>
-                    <option>Cast Iron Pipe Descaling</option>
-                    <option>Trenchless Pipe Lining</option>
-                    <option>Whole House Repiping</option>
-                    <option>Sewer Camera Inspection</option>
+                <div className="space-y-2 text-left">
+                  <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Urgency Level</label>
+                  <select className="w-full h-14 rounded-2xl bg-slate-50 border-white px-6 font-bold text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner">
+                    <option>Immediate (Active Flooding)</option>
+                    <option>High Water Bill (Suspected Leak)</option>
+                    <option>Hot Spot on Floor</option>
+                    <option>Standard Foundation Inspection</option>
                   </select>
                 </div>
 
-                <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Pipe Project Details</label>
-                  <Textarea placeholder="Describe the backup issue, basement flooding, or signs of scaling in your Boonton property..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />
+                <div className="space-y-2 text-left">
+                  <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Project Details</label>
+                  <Textarea placeholder="Describe the signs of the leak (water bill spikes, hot floors, cracks in slab) in your Boonton home..." className="min-h-[150px] rounded-3xl bg-slate-50 border-white p-6 font-bold focus:ring-indigo-500 shadow-inner" />
                 </div>
-                <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-2xl font-bold uppercase tracking-widest text-sm shadow-xl shadow-indigo-900/20 transition-all hover:gap-4">
-                  Submit Request <Send className="w-5 h-5" />
+                <Button className="w-full bg-indigo-600 hover:bg-slate-900 text-white h-16 rounded-2xl font-bold uppercase tracking-widest text-sm shadow-xl shadow-indigo-900/20 transition-all hover:gap-4 active:scale-95">
+                  Send to Specialist <Send className="w-5 h-5" />
                 </Button>
-                <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest pt-4 italic">
-                  Rapid Repiping Response Guaranteed in Boonton, NJ
-                </p>
+                <div className="flex items-center justify-center gap-2 pt-4 opacity-50">
+                  <Radio className="w-4 h-4 text-indigo-600 animate-pulse" />
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] italic">Electronic Detection Ready in Boonton</p>
+                </div>
               </form>
             </div>
 

@@ -1,131 +1,151 @@
-import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, Info, CheckCircle, AlertCircle, TrendingUp, DollarSign, Home, Waves, Activity, Wrench, FileText, Scissors, Target, LucideIcon } from "lucide-react";
+import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, DollarSign, Target, Radio, Thermometer, AlertCircle, FileText, Info, TrendingUp, CheckCircle, Home, Activity, Wrench, Shield, Waves, LucideIcon } from "lucide-react";
 
 const faqs = [
   {
-    icon: HelpCircle,
-    question: "How much does it cost to replace cast iron pipes?",
-    answer: "Costs typically range from $15,000 to $30,000 for a whole-house replacement, depending on home size and access in Boonton."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Does homeowners insurance cover replacing cast iron pipes?",
-    answer: "Generally, no. Insurance covers sudden water damage but rarely the cost of replacing old, worn-out cast iron pipes themselves."
+    icon: Search,
+    question: "How much does a leak detection specialist cost?",
+    answer: "Boonton specialists typically charge between $250 and $550 for a professional residential leak detection session, depending on the complexity of the slab."
   },
   {
     icon: DollarSign,
-    question: "How much will a plumber charge to replace a pipe?",
-    answer: "Boonton plumbers usually charge between $150 and $400 per linear foot for cast iron replacement, depending on the pipe's location and depth."
-  },
-  {
-    icon: Info,
-    question: "Can you still get cast iron pipes?",
-    answer: "Yes, cast iron is still used in high-end projects and commercial buildings for its quiet operation, but PVC and PEX are standard for modern residential replacements."
-  },
-  {
-    icon: FileText,
-    question: "Can you sell a house with cast iron pipes?",
-    answer: "Yes, but many Boonton buyers will request a sewer scope, and aging pipes can often complicate financing or property insurance."
-  },
-  {
-    icon: Clock,
-    question: "What is the life expectancy of cast iron pipes?",
-    answer: "Cast iron pipes are generally rated for a 50 to 75-year lifespan. Most Boonton homes built before 1970 are now at high risk of failure."
+    question: "How much does it cost to have a leak detected?",
+    answer: "Most local Boonton services offer a flat rate for initial acoustic and thermal detection, usually starting around $299 for single-family homes."
   },
   {
     icon: AlertCircle,
-    question: "Why do insurance companies not like cast iron plumbing?",
-    answer: "Insurers view cast iron as a high-risk liability due to frequent leaks, collapses, and expensive water damage claims in older NJ homes."
+    question: "Is a slab leak expensive to fix?",
+    answer: "Repair costs range from $1,500 to $5,000+. The cost is highly dependent on whether you choose direct access repair or a localized reroute in Boonton."
   },
   {
-    icon: Hammer,
-    question: "Should I replace old cast iron pipes?",
-    answer: "If you experience frequent backups, slow drains, or sewer smells, it is highly recommended to replace them before a major collapse occurs."
-  },
-  {
-    icon: TrendingUp,
-    question: "Is it cheaper to replace or repair pipes?",
-    answer: "Repairs are cheaper upfront, but repeated fixes for failing cast iron quickly exceed the cost of a one-time permanent replacement."
-  },
-  {
-    icon: Home,
-    question: "How much does it cost to repipe a 2500 square foot house?",
-    answer: "In Boonton, a full repipe for a 2,500 sq ft home typically ranges from $12,000 to $25,000 depending on the number of fixtures and floor plan."
+    icon: Radio,
+    question: "How to detect water leak under concrete slab?",
+    answer: "Professional detection in Boonton involves electronic amplification, tracer gases, and infrared thermal imaging to see heat plumes under the foundation."
   },
   {
     icon: ShieldCheck,
-    question: "Do most homeowners insurance cover broken water pipes?",
-    answer: "They usually cover the damage caused by the break, but not the repair or replacement of the pipe itself unless you have a specific rider."
-  },
-  {
-    icon: Clock,
-    question: "What year did plumbers stop using cast iron pipes?",
-    answer: "Residential use of cast iron mostly ended in the mid-1970s as PVC became the industry standard for Boonton area construction."
-  },
-  {
-    icon: AlertCircle,
-    question: "What is the most expensive plumbing issue?",
-    answer: "A main sewer line collapse under a slab foundation is consistently ranked as one of the most expensive and invasive repairs."
-  },
-  {
-    icon: Clock,
-    question: "How long does it take to replace cast iron pipes?",
-    answer: "A full house repipe typically takes 3 to 7 days, depending on the complexity and size of your Boonton property."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Will homeowners insurance cover cast iron pipe replacement?",
-    answer: "Unless the failure was sudden and accidental (and not due to age), most standard policies will not pay for the replacement."
+    question: "Does home insurance cover leak detection?",
+    answer: "Often, yes. While the pipe repair itself might not be covered, the 'cost of access' (leak detection and opening the slab) frequently is in Boonton policies."
   },
   {
     icon: Search,
-    question: "How to tell if cast iron pipe needs to be replaced?",
-    answer: "Signs include persistent slow drains, sewage odors, rust spots on exposed pipes, frequent backups, and lush patches in the yard."
+    question: "How do plumbers find hidden leaks?",
+    answer: "Standard Boonton plumbers may guess, but specialists use high-frequency sonar and line-tracing technology to find the leak with zero demolition."
   },
   {
-    icon: Droplets,
-    question: "What is the healthiest pipe for drinking water?",
-    answer: "Copper and PEX are currently considered the best options for modern residential water delivery in New Jersey."
+    icon: FileText,
+    question: "Will insurance pay for a slab leak?",
+    answer: "Most Boonton insurers pay for the resulting water damage and the access costs, but the actual plumbing pipe repair is typically the homeowner's responsibility."
   },
   {
-    icon: TrendingUp,
-    question: "What decreases property value the most?",
-    answer: "Major structural issues and outdated infrastructure, including failing cast iron plumbing, can significantly decrease a property's market value."
+    icon: Wrench,
+    question: "How do plumbers fix a slab leak?",
+    answer: "Common methods in Boonton include 'spot repair' (jackhammering a small area) or 'rerouting' (bypassing the underground pipe with new lines in the walls)."
+  },
+  {
+    icon: Clock,
+    question: "How urgent is a slab leak?",
+    answer: "Extremely urgent. Continuous water flow erodes the soil under your Boonton home, leading to foundation cracks, settlement, and structural failure."
+  },
+  {
+    icon: Activity,
+    question: "How common are slab leaks?",
+    answer: "In Boonton homes built before 1990, slab leaks are very common due to decaying copper pipes and aggressive NJ soil minerals."
+  },
+  {
+    icon: DollarSign,
+    question: "Will insurance pay out for water damage?",
+    answer: "Yes, provided the leak was 'sudden and accidental' and not due to decades of neglected maintenance in your Boonton property."
   },
   {
     icon: Hammer,
-    question: "What not to fix before selling your house?",
-    answer: "Cosmetic issues are often left for buyers, but major functional systems like failing plumbing are usually mandatory fixes in Boonton."
+    question: "How much does it cost to replace pipes under concrete slab?",
+    answer: "Replacing several linear feet of pipe can cost $2,000-$4,500. A full reroute of the kitchen or bath loop is often more cost-effective long-term."
   },
   {
-    icon: AlertCircle,
-    question: "What is the most common reason a property fails to sell?",
-    answer: "Failed inspections—often due to aging roofs or deteriorating cast iron sewer lines—are the primary cause of deal cancellations."
+    icon: Search,
+    question: "How much will a plumber charge to find a leak?",
+    answer: "Expect a professional detection service in Boonton to charge a service fee of $300-$500 for a thorough foundation assessment."
   },
   {
-    icon: DollarSign,
-    question: "How much to replumb a 2000 square foot house?",
-    answer: "Expect to pay $8,000 to $18,000 for a full repiping of a 2,000 sq ft home in the Boonton area."
+    icon: ShieldCheck,
+    question: "Does home insurance cover water leaks?",
+    answer: "Standard Boonton policies cover 'sudden' leaks. They rarely cover slow, long-term leaks that occurred due to poor maintenance or age."
   },
   {
-    icon: DollarSign,
-    question: "What does it cost to replace cast iron pipes?",
-    answer: "For specific sections, expect $300-$600 per linear foot. Full house replacement projects are quoted by custom assessment."
+    icon: Target,
+    question: "What is the best DIY leak detection method?",
+    answer: "The meter test: Turn off all water in your Boonton home and check the main water meter. If the dial is still spinning, you have an active leak."
   },
   {
     icon: Info,
-    question: "Is cast iron 100% steel?",
-    answer: "No, cast iron contains 2-4% carbon and other alloys, making it more brittle than steel but more resistant to certain types of corrosion."
+    question: "Are slab leaks covered by a home warranty?",
+    answer: "Many Boonton home warranties cover the repair and detection of slab leaks, though limits and deductibles usually apply."
+  },
+  {
+    icon: TrendingUp,
+    question: "Is it worth going through insurance for water damage?",
+    answer: "If damage exceeds your deductible, yes. Slab leaks often cause hidden mold and structural settlement that requires professional remediation."
+  },
+  {
+    icon: Thermometer,
+    question: "How to check if you have a slab leak?",
+    answer: "Watch for warm spots on the floor, higher than normal water bills, sound of running water when off, or unexplained damp spots in your Boonton home."
+  },
+  {
+    icon: Home,
+    question: "Will homeowners cover a slab leak?",
+    answer: "Coverage varies by carrier in Boonton. Most 'Open Perils' policies cover the access and the damage, but not the physical copper pipe fix."
+  },
+  {
+    icon: Search,
+    question: "What are the signs of a hidden slab leak?",
+    answer: "A spinning water meter, low water pressure, mold on baseboards, or a hot water heater that never stops running in your Boonton residence."
+  },
+  {
+    icon: Clock,
+    question: "How long do slab leaks take to repair?",
+    answer: "Detection takes 1-3 hours. The physical repair or reroute for a Boonton home typically takes 1 to 2 days to complete fully."
+  },
+  {
+    icon: Shield,
+    question: "What is the best way to fix a slab leak?",
+    answer: "For older Boonton homes, a reroute (bypassing the slab) is the most permanent and least invasive solution for future-proofing."
+  },
+  {
+    icon: Info,
+    question: "How common is a slab leak?",
+    answer: "Statistics show that homes with older copper plumbing have a 25% chance of developing a slab leak over a 20-year period."
+  },
+  {
+    icon: Zap,
+    question: "Should I repipe instead of repairing a slab leak?",
+    answer: "If your Boonton home has had more than one slab leak, a full repipe is highly recommended to prevent recurring foundation damage."
+  },
+  {
+    icon: DollarSign,
+    question: "How much to charge for leak detection?",
+    answer: "Specialists in the Morris County area typically bill a flat fee of $350 for standard residential foundation leak locating."
+  },
+  {
+    icon: Waves,
+    question: "What is the best solution for slab leakage?",
+    answer: "Precision detection followed by a modern PEX reroute is the industry-standard solution for permanent Boonton home protection."
+  },
+  {
+    icon: AlertCircle,
+    question: "What are the long-term costs of ignoring a slab leak?",
+    answer: "Ignoring a leak leads to foundation heave, mold growth, warped floors, and eventual structural condemnation of your Boonton property."
   }
 ];
 
-
 const FAQCard = ({ icon: Icon, question, answer }: { icon: LucideIcon, question: string, answer: string }) => (
-  <div className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:border-indigo-200 transition-all group h-full">
-    <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+  <div className="bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-slate-200/40 hover:border-indigo-200 transition-all group h-full relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-16 h-16 bg-indigo-50 rounded-bl-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity" />
+    <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300">
       <Icon className="w-6 h-6" />
     </div>
-    <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight leading-tight">{question}</h3>
-    <p className="text-slate-500 leading-relaxed text-sm font-medium italic">{answer}</p>
+    <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tighter leading-tight relative z-10">{question}</h3>
+    <p className="text-slate-500 leading-relaxed text-sm font-medium italic relative z-10">{answer}</p>
   </div>
 );
 
@@ -134,14 +154,14 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
-            Expert Knowledge Base
+          <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-black uppercase tracking-[0.2em] mb-4">
+            Leak Knowledge Base
           </div>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Boonton <span className="text-indigo-600">Repiping FAQ</span>
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
+            Slab Leak <span className="text-indigo-600 border-b-4 border-indigo-600/20">Detection FAQ</span>
           </h2>
-          <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Everything you need to know about Boonton cast iron pipe replacement. Have more questions? Call our experts at (877) 792-1410.
+          <p className="text-slate-600 text-lg leading-relaxed font-bold italic">
+            Essential information for Boonton homeowners about foundation leaks, insurance coverage, and professional detection methods.
           </p>
         </div>
 
@@ -149,6 +169,14 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <FAQCard key={index} {...faq} />
           ))}
+        </div>
+
+        <div className="mt-20 text-center">
+          <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-4">Still have foundation questions?</p>
+          <a href="tel:8777921410" className="inline-flex items-center gap-3 text-indigo-600 font-black text-2xl hover:text-slate-900 transition-colors uppercase tracking-tight">
+            <Phone className="w-6 h-6" />
+            (877) 792-1410
+          </a>
         </div>
       </div>
     </section>

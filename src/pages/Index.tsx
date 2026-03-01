@@ -9,25 +9,25 @@ import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
-import { ShieldCheck, Zap, Droplets } from "lucide-react";
+import { ShieldCheck, Zap, Droplets, Target, Search } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>cast iron pipe replacement boonton (877) 792-1410 | Boonton Cast Iron Pipe Replacement Pros</title>
-        <meta name="description" content="Professional cast iron pipe replacement boonton. (877) 792-1410. Expert residential repiping, sewer line replacement, and copper/PEX upgrades in Boonton, NJ." />
-        <meta name="keywords" content="cast iron pipe replacement boonton, boonton NJ repiping, sewer line replacement Boonton, old pipe replacement Boonton, plumbing upgrades Boonton NJ" />
-        <link rel="canonical" href="https://castironpipereplacementboonton.vercel.app/" />
+        <title>slab leak detection specialist boonton (877) 792-1410 | Boonton Slab Leak Detection Pros</title>
+        <meta name="description" content="Professional slab leak detection specialist boonton. (877) 792-1410. Expert thermal imaging, acoustic detection, and precision slab leak repair in Boonton, NJ." />
+        <meta name="keywords" content="slab leak detection specialist boonton, boonton NJ slab leak repair, water leak detection Boonton, concrete slab leak Boonton, foundation leak repair Boonton NJ" />
+        <link rel="canonical" href="https://slableakdetectionspecialistboonton.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Boonton Cast Iron Pipe Replacement Pros",
+            "name": "Boonton Slab Leak Detection Pros",
             "image": "/4.jpeg",
-            "@id": "https://castironpipereplacementboonton.vercel.app/",
-            "url": "https://castironpipereplacementboonton.vercel.app/",
+            "@id": "https://slableakdetectionspecialistboonton.vercel.app/",
+            "url": "https://slableakdetectionspecialistboonton.vercel.app/",
             "telephone": "(877) 792-1410",
             "address": {
               "@type": "PostalAddress",
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Cast Iron Pipe Replacement",
+            "serviceType": "Slab Leak Detection and Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Boonton Cast Iron Pipe Replacement Pros"
+              "name": "Boonton Slab Leak Detection Pros"
             },
             "areaServed": {
               "@type": "City",
@@ -66,21 +66,21 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Repiping Services",
+              "name": "Leak Detection Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cast Iron Pipe Replacement" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sewer Line Replacement" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole House Repiping" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain Line Replacement" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acoustic Leak Detection" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Imaging Leak Detection" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Slab Leak Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Water Leak Detection" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="cast iron pipe replacement boonton (877) 792-1410 | Boonton Cast Iron Pipe Replacement Pros" />
-        <meta property="og:description" content="Expert cast iron pipe replacement in Boonton, NJ. Professional sewer line and drain pipe upgrades. Call (877) 792-1410!" />
+        <meta property="og:title" content="slab leak detection specialist boonton (877) 792-1410 | Boonton Slab Leak Detection Pros" />
+        <meta property="og:description" content="Expert slab leak detection in Boonton, NJ. Professional thermal imaging and acoustic detection. Call (877) 792-1410!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://castironpipereplacementboonton.vercel.app/" />
+        <meta property="og:url" content="https://slableakdetectionspecialistboonton.vercel.app/" />
         <meta property="og:image" content="/4.jpeg" />
       </Helmet>
 
@@ -89,19 +89,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              CAST IRON PIPE REPLACEMENT <br />
+              SLAB LEAK DETECTION <br />
               <span className="text-white drop-shadow-sm uppercase">in BOONTON NJ</span>
             </>
           }
-          subtitle="Boonton's designated specialists in professional cast iron pipe replacement and modern repiping solutions. From historic Boonton homes to the surrounding Morris County area, we protect your property with advanced plumbing technology and certified expertise."
+          subtitle="Boonton's premier specialists in precision slab leak detection and non-invasive repair. Using advanced acoustic technology and thermal imaging, we locate underground water leaks with surgical accuracy to protect your Boonton home's foundation."
           image="/4.jpeg"
-          overlayImage="/1.jpeg"
-          badge="BOONTON CAST IRON PROS"
+          overlayImage="/2.jpeg"
+          badge="BOONTON SLAB LEAK EXPERTS"
           phone="8777921410"
           features={[
-            { icon: ShieldCheck, text: "Certified Repiping" },
-            { icon: Zap, text: "Rapid Replacement" },
-            { icon: Droplets, text: "Copper & PEX Upgrades" }
+            { icon: Search, text: "Acoustic Detection" },
+            { icon: Target, text: "Precision Locating" },
+            { icon: ShieldCheck, text: "Non-Invasive Repair" }
           ]}
         />
         <Services />
@@ -114,10 +114,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">How much does pipe leak repair cost in Modesto?</a>
-              <a href="https://plumbermontellowi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Best plumber services in Montello WI</a>
-              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Trenchless sewer repair options in Scottsdale AZ</a>
-              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Expert water heater repair in Beaverton OR</a>
+              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pipe leak repair cost in Modesto</a>
+              <a href="https://castironpipereplacementboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Boonton cast iron pipe replacement</a>
+              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Sewer repair options in Scottsdale AZ</a>
+              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Water heater repair Beaverton OR</a>
             </div>
           </div>
         </section>

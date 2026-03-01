@@ -1,25 +1,25 @@
-import { ShieldCheck, Clock, Award, Hammer, Wrench, Shield, Search, Zap, Target } from "lucide-react";
+import { ShieldCheck, Clock, Award, Hammer, Wrench, Shield, Search, Zap, Target, Thermometer, Radio } from "lucide-react";
 
 const features = [
   {
-    icon: Hammer,
-    title: "Morrison County Certified",
-    description: "Fully licensed and insured specifically for residential plumbing and pipe replacement in New Jersey. Your Boonton home is in expert hands."
+    icon: Radio,
+    title: "Non-Invasive Locating",
+    description: "We use acoustic and thermal sensors to find leaks without Jackhammering. We protect your Boonton home's aesthetic and structural integrity."
   },
   {
-    icon: Zap,
-    title: "Advanced Repiping",
-    description: "From specialized trenchless liners to complete house repiping, we use industrial-grade materials that provide a multi-decade barrier against leaks."
+    icon: Thermometer,
+    title: "Thermal Precision",
+    description: "Our infrared cameras detect even the smallest temperature drops under 6 inches of concrete, ensuring we only open the floor exactly where needed."
   },
   {
     icon: Shield,
-    title: "Clean Execution Guarantee",
-    description: "We protect your historic Boonton flooring and landscaping. Our team treats your property with the utmost respect throughout the project."
+    title: "Slab Protection Policy",
+    description: "We understand Boonton's specific soil conditions and foundation styles. Our repairs are engineered to satisfy both engineers and insurers."
   },
   {
     icon: ShieldCheck,
-    title: "Long-Term Protection",
-    description: "We don't consider the job complete until your plumbing is 100% leak-free. We stand by our replacement and installation work for life."
+    title: "Insurance Assistance",
+    description: "Slab leaks are complex. We provide detailed forensic reports and digital proof of loss to help you navigate your Boonton homeowners insurance claim."
   }
 ];
 
@@ -28,51 +28,51 @@ const WhyUs = () => {
     <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Cast Iron</span> <br />
-            Experts in Boonton NJ
+          <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
+            Advanced <span className="text-indigo-600 border-b-4 border-indigo-600/20">Slab Detection</span> <br />
+            Specialists in Boonton NJ
           </h2>
-          <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto">
-            Providing Boonton and the surrounding New Jersey communities with specialized, targeted cast iron pipe replacement and home protection services.
+          <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto italic">
+            Providing Boonton homeowners with a scientific approach to leak detection. We find what others miss, saving your foundation from costly settlement issues.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative text-center">
-            <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
+            <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl opacity-50" />
             <img
               src="/2.jpeg"
-              alt="Professional Cast Iron Pipe Replacement in Boonton NJ"
-              className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto"
+              alt="Professional Slab Leak Detection in Boonton NJ"
+              className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
             />
             <div className="absolute -bottom-8 -right-8 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl z-20 border border-indigo-500 max-w-[240px]">
-              <p className="text-4xl font-bold mb-1">100%</p>
-              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Leak-Free Guarantee in Boonton</p>
+              <p className="text-4xl font-bold mb-1 uppercase tracking-tighter">100%</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest leading-tight">Detection Accuracy in Boonton</p>
             </div>
           </div>
 
           <div className="space-y-8">
             {[
               {
-                title: "Safe Home Protection",
-                desc: "Our targeted technology eliminates the need for massive excavation, keeping your historic Boonton architecture perfectly safe."
+                title: "Electronic Pipe Tracing",
+                desc: "We map out your entire Boonton property's plumbing system digitally before we start, ensuring we understand the exact path of your pipes."
               },
               {
-                title: "NJ Climate Expertise",
-                desc: "We understand how New Jersey's freeze-thaw cycles and aging infrastructure create specific challenges for cast iron plumbing management."
+                title: "Non-Destructive Testing",
+                desc: "Our methods allow your family to stay in the home while we work. No massive dust clouds or unnecessary foundation demolition in your Boonton residence."
               },
               {
-                title: "Accelerated Service",
-                desc: "Our technicians implement rapid-action pipe bursting and specialized detection systems, ensuring that your home is secure in days."
+                title: "Certified Leak Experts",
+                desc: "Every technician is specifically trained in Boonton's regional plumbing codes and modern leak detection physics, not just basic plumbing."
               }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 group">
-                <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shrink-0 shadow-xl border border-slate-100 group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shrink-0 shadow-xl border border-slate-100 group-hover:scale-110 transition-transform duration-300">
                   <ShieldCheck className="w-7 h-7 text-indigo-600" />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-slate-900 mb-2 uppercase tracking-tight">{item.title}</h4>
-                  <p className="text-slate-600 leading-relaxed font-medium">{item.desc}</p>
+                  <p className="text-slate-600 leading-relaxed font-medium italic text-sm">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -80,12 +80,12 @@ const WhyUs = () => {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to fix your home?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Boonton's Best</h4>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Suspect a Slab Leak?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Boonton's Experts</h4>
                 </div>
                 <a
                   href="tel:8777921410"
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center w-full sm:w-auto text-nowrap"
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center w-full sm:w-auto"
                 >
                   (877) 792-1410
                 </a>

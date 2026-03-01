@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Boonton Cast Iron Pipe Replacement Pros</title>
-                <meta name="description" content="Replace this cast iron pipe replacement phone number with your own business line in Boonton, NJ for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Boonton Slab Leak Detection Professionals</title>
+                <meta name="description" content="Replace this slab leak detection phone number with your own business line in Boonton, NJ for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -18,84 +18,89 @@ const LeaseNumber = () => {
                 <div className="container mx-auto px-4 max-w-4xl">
 
                     {/* Hero Banner */}
-                    <div className="bg-gradient-to-br from-indigo-900 to-slate-900 rounded-[2rem] p-10 md:p-16 text-white mb-12 relative overflow-hidden shadow-2xl border border-indigo-500/30">
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full -translate-y-32 translate-x-32 blur-2xl" />
-                        <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-24 -translate-x-24 blur-2xl" />
+                    <div className="bg-gradient-to-br from-indigo-900 to-slate-950 rounded-[2.5rem] p-10 md:p-20 text-white mb-16 relative overflow-hidden shadow-2xl border border-indigo-500/20">
+                        <div className="absolute top-0 right-0 w-80 h-80 bg-indigo-600/10 rounded-full -translate-y-32 translate-x-32 blur-3xl" />
+                        <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full translate-y-24 -translate-x-24 blur-3xl" />
                         <div className="relative z-10 text-center">
-                            <div className="w-16 h-16 rounded-2xl bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center mx-auto mb-6">
-                                <DollarSign className="w-9 h-9 text-indigo-300" />
+                            <div className="w-20 h-20 rounded-3xl bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center mx-auto mb-8 shadow-xl">
+                                <DollarSign className="w-10 h-10 text-indigo-300" />
                             </div>
-                            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4 uppercase tracking-tight">
-                                Lease This Phone Number
+                            <h1 className="text-4xl md:text-6xl font-heading font-black mb-6 uppercase tracking-tighter leading-tight">
+                                Lease This <br /> Phone Number
                             </h1>
-                            <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic">
-                                Run a plumbing or repiping business in Boonton NJ? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
+                            <p className="text-indigo-200 text-xl max-w-2xl mx-auto leading-relaxed font-bold italic">
+                                Are you a leak detection specialist in Boonton NJ? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local slab leak leads.
                             </p>
                         </div>
                     </div>
 
-                    {/* Two Column Layout */}
-                    <div className="grid md:grid-cols-2 gap-10 mb-12">
+                    {/* Content Section */}
+                    <div className="grid md:grid-cols-2 gap-12 mb-16">
 
                         {/* What You Get */}
-                        <div className="bg-white rounded-[2rem] p-8 shadow-xl border border-slate-100">
-                            <h2 className="text-2xl font-bold text-slate-900 uppercase tracking-tight mb-6 flex items-center gap-3">
-                                <ShieldCheck className="w-7 h-7 text-indigo-600" />
-                                What You Get
-                            </h2>
-                            <ul className="space-y-5">
-                                {[
-                                    "Your business phone number displayed site-wide",
-                                    "All inbound pipe replacement inquiries routed to you",
-                                    "Full local SEO benefit of an optimized Boonton landing page",
-                                    "Exclusive placement — only one business at a time",
-                                    "Month-to-month, no long-term contract",
-                                    "Cancel anytime with 30 days notice",
-                                ].map((item, i) => (
-                                    <li key={i} className="flex items-start gap-3">
-                                        <CheckCircle className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
-                                        <span className="text-slate-700 font-medium">{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
+                        <div className="bg-white rounded-[3rem] p-10 shadow-2xl border border-slate-100 flex flex-col justify-between">
+                            <div>
+                                <h2 className="text-2xl font-black text-slate-950 uppercase tracking-tighter mb-8 flex items-center gap-4">
+                                    <ShieldCheck className="w-8 h-8 text-indigo-600" />
+                                    The Benefit
+                                </h2>
+                                <ul className="space-y-6">
+                                    {[
+                                        "Replace (877) 792-1410 with your direct line",
+                                        "All Boonton slab leak inquiries route to you",
+                                        "Dominant SEO presence for Boonton foundation leaks",
+                                        "One specialist per territory — exclusive deal",
+                                        "Simple month-to-month billing",
+                                        "No setup fees or long-term contracts",
+                                    ].map((item, i) => (
+                                        <li key={i} className="flex items-start gap-4 group">
+                                            <CheckCircle className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                                            <span className="text-slate-700 font-bold italic text-sm leading-relaxed">{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
 
-                        {/* Pricing & CTA */}
-                        <div className="bg-white rounded-[2rem] p-8 shadow-xl border border-slate-100 flex flex-col justify-between">
-                            <div>
-                                <h2 className="text-2xl font-bold text-slate-900 uppercase tracking-tight mb-6 flex items-center gap-3">
-                                    <Phone className="w-7 h-7 text-indigo-600" />
-                                    Simple Pricing
+                        {/* Pricing Box */}
+                        <div className="bg-indigo-600 rounded-[3rem] p-10 text-white shadow-2xl shadow-indigo-900/30 flex flex-col justify-between relative overflow-hidden">
+                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-white/10 rounded-full blur-2xl" />
+                            <div className="relative z-10">
+                                <h2 className="text-2xl font-black uppercase tracking-tighter mb-8 flex items-center gap-4">
+                                    <Phone className="w-8 h-8 text-white" />
+                                    Simple Flat Rate
                                 </h2>
-                                <div className="bg-indigo-50 rounded-2xl p-6 text-center border border-indigo-100 mb-8">
-                                    <p className="text-indigo-600 font-bold uppercase tracking-widest text-xs mb-2">Monthly Rate</p>
-                                    <p className="text-6xl font-bold text-indigo-700 mb-1">$19</p>
-                                    <p className="text-slate-500 font-medium text-sm">per month · billed monthly</p>
+                                <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 text-center border border-white/20 mb-10">
+                                    <p className="text-indigo-200 font-black uppercase tracking-[0.3em] text-[10px] mb-2">Monthly Subscription</p>
+                                    <div className="flex items-center justify-center gap-1">
+                                        <span className="text-3xl font-black mb-6">$</span>
+                                        <span className="text-7xl font-black tracking-tighter">19</span>
+                                        <span className="text-xl font-bold italic text-indigo-200">/mo</span>
+                                    </div>
+                                    <p className="text-indigo-100 text-xs font-bold uppercase tracking-widest mt-2">No Contracts • Cancel Anytime</p>
                                 </div>
-                                <p className="text-slate-600 text-sm leading-relaxed italic mb-8">
-                                    To get started, simply email us at the address below. We'll confirm availability, swap in your number, and have you receiving Boonton repiping calls within 24 hours.
-                                </p>
                             </div>
 
-                            <div className="space-y-4">
+                            <div className="relative z-10 space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Cast Iron Pipe Replacement Boonton - $19/month"
-                                    className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
+                                    href="mailto:leasemynumber@gmail.com?subject=Boonton Slab Leak Specialist - Phone Lease Inquiry $19/mo"
+                                    className="w-full inline-flex items-center justify-center gap-3 bg-white text-indigo-700 hover:bg-slate-100 px-8 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl active:scale-95"
                                 >
                                     <Mail className="w-5 h-5" />
                                     leasemynumber@gmail.com
                                 </a>
-                                <p className="text-center text-slate-400 text-xs italic font-medium">
-                                    Subject line auto-filled. We respond within 24 hours.
+                                <p className="text-center text-indigo-200 text-[10px] font-black uppercase tracking-widest">
+                                    Immediate availability in Boonton NJ
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    {/* Bottom CTA strip */}
-                    <div className="bg-slate-900 rounded-2xl p-8 text-center text-white border border-indigo-500/20">
-                        <p className="text-slate-400 text-sm font-medium mb-2">Questions? Email us directly</p>
-                        <a href="mailto:leasemynumber@gmail.com" className="text-2xl font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase">
+                    {/* Bottom CTA */}
+                    <div className="bg-slate-950 rounded-[2.5rem] p-12 text-center text-white border border-indigo-500/10 shadow-2xl relative group overflow-hidden">
+                        <div className="absolute inset-0 bg-indigo-600/[0.03] translate-y-full group-hover:translate-y-0 transition-transform duration-700" />
+                        <p className="text-indigo-500 text-[10px] font-black uppercase tracking-[0.4em] mb-4 relative z-10">Direct Specialist Access</p>
+                        <a href="mailto:leasemynumber@gmail.com" className="text-2xl md:text-3xl font-black text-white hover:text-indigo-400 transition-colors uppercase tracking-tight relative z-10 underline decoration-indigo-900 underline-offset-8">
                             LEASE MY NUMBER
                         </a>
                     </div>
