@@ -2,23 +2,23 @@ import { Bug, Zap, ShieldCheck, Activity } from "lucide-react";
 
 const services = [
   {
-    title: "Rat Extermination",
-    description: "Technical removal of rat infestations using advanced baiting and trapping protocols for maximum efficacy.",
+    title: "Hornet Extraction",
+    description: "Technical removal of complex hornet nests using industrial knockdown agents and physical extraction protocols.",
     icon: ShieldCheck
   },
   {
-    title: "Mouse Proofing",
-    description: "Total structural sealing to prevent mice from entering your home through even the smallest crevices.",
+    title: "Yellow Jacket Control",
+    description: "Neutralization of subterranean and structural yellow jacket colonies with total perimeter protection.",
     icon: Bug
   },
   {
-    title: "Sanitization Service",
-    description: "High-pressure biohazard cleaning and decontamination of areas affected by rodent nesting and waste.",
+    title: "Terminal Nest Service",
+    description: "High-pressure neutralization and decontamination of sites occupied by stinging insect colonies.",
     icon: Zap
   },
   {
-    title: "Attic Recovery",
-    description: "Specialized insulation replacement and cleaning for attics damaged by rodent activity.",
+    title: "Structural Defense",
+    description: "Specialized exclusion and deterrent application to prevent secondary scouting in your Kaysville home.",
     icon: Activity
   }
 ];
@@ -44,7 +44,7 @@ const Services = () => {
             <div className="absolute inset-0 bg-indigo-600/10 rounded-[2.5rem] rotate-3" />
             <img
               src="/1.jpeg"
-              alt="Kaysville Rodent Inspection"
+              alt="Kaysville Wasp Inspection"
               className="relative z-10 w-full h-64 object-cover rounded-[2.5rem] shadow-xl"
             />
           </div>

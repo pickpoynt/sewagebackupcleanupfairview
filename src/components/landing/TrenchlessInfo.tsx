@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const features = [
     {
-        title: "Infrared Deployment",
-        description: "We use thermal imaging to locate rodent nests embedded deep within wall voids and attic insulation.",
+        title: "Acoustic Mapping",
+        description: "We use acoustic sensors to locate wasp and hornet activity embedded deep within wall voids and structural cavities.",
         icon: Microscope
     },
     {
-        title: "Total Containment",
-        description: "Our removal process includes specialized containment protocols to prevent pests from escaping into other areas.",
+        title: "Pheromone Neutralizer",
+        description: "Our removal process includes specialized treatments to neutralize colony pheromones, preventing future recolonization.",
         icon: Zap
     },
     {
-        title: "Structural Sealing",
-        description: "Technical gap closure after rodent removal to ensure no secondary pest entry occurs in your Kaysville home.",
+        title: "Structural Defense",
+        description: "Technical gap closure and deterrent application after nest removal to ensure no secondary pest entry occurs in Kaysville.",
         icon: ShieldCheck
     }
 ];
@@ -29,7 +29,7 @@ const TrenchlessInfo = () => {
                         <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3" />
                         <img
                             src="/3.jpeg"
-                            alt="Kaysville Rodent Technical Extraction"
+                            alt="Kaysville Wasp Technical Extraction"
                             className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.3] hover:grayscale-0 transition-all duration-700"
                         />
                         <div className="absolute top-12 -right-12 z-20 bg-slate-900 p-8 rounded-3xl shadow-2xl border border-indigo-500/30">
@@ -48,14 +48,14 @@ const TrenchlessInfo = () => {
                     <div className="order-1 lg:order-2">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-slate-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold uppercase">
                             <Bug className="w-4 h-4" />
-                            Technical Rodent Protocol
+                            Technical Wasp Protocol
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight uppercase">
                             Precision Extraction <br />
                             <span className="text-indigo-600 uppercase">For Kaysville Area</span>
                         </h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium">
-                            Our recovery protocols integrate industrial-grade inspection technologies with professional rodent elimination for Kaysville's premier structures.
+                            Our recovery protocols integrate industrial-grade inspection technologies with professional stinging insect elimination for Kaysville's premier structures.
                         </p>
 
                         <div className="space-y-8 mb-12">

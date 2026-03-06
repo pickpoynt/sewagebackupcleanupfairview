@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Rodent Removal Kaysville",
-  subtitle = "Kaysville's premier specialists in professional rodent removal. We provide advanced rat and mouse control techniques that protect your property and restore your peace of mind in the heart of Utah.",
+  title = "Wasp Nest Removal Kaysville",
+  subtitle = "Kaysville's premier specialists in professional wasp and hornet extraction. We provide advanced neutralisation techniques that protect your property and restore your peace of mind in 84037, 84041, 84015, and 84025.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "3238801224",
-  badge = "KAYSVILLE RODENT PROS",
+  badge = "KAYSVILLE WASP REMOVAL PROS",
   features = [
-    { icon: ShieldCheck, text: "Full Extraction" },
-    { icon: Bug, text: "Rodent Proofing" },
-    { icon: Zap, text: "Rapid Response" }
+    { icon: ShieldCheck, text: "Terminal Extraction" },
+    { icon: Bug, text: "Stinging Insect Control" },
+    { icon: Zap, text: "Rapid Dispatch" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

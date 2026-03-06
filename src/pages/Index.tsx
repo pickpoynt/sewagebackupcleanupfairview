@@ -12,8 +12,8 @@ import { Zap, ShieldCheck, Bug, Home } from "lucide-react";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 
 const Index = () => {
-  const primaryKeyword = "Rodent removal Kaysville";
-  const firmName = "Kaysville Rodent Pros";
+  const primaryKeyword = "Wasp nest removal Kaysville";
+  const firmName = "Kaysville Wasp Removal Pros";
   const phoneNumber = "(323) 880-1224";
   const businessCords = { lat: 41.0347, lng: -111.9383 };
 
@@ -21,14 +21,14 @@ const Index = () => {
     <div className="min-h-screen bg-slate-50">
       <Helmet>
         <title>{primaryKeyword} {phoneNumber} | {firmName}</title>
-        <meta name="description" content={`Expert ${primaryKeyword}. Call ${phoneNumber} for professional rodent extraction. Specialized rat and mouse control in Kaysville, UT. Sanitize your home today.`} />
-        <meta name="keywords" content="rodent removal kaysville, rat control kaysville ut, mouse exterminator kaysville, pest control kaysville utah" />
-        <link rel="canonical" href="https://rodentremovalkaysville.vercel.app/" />
+        <meta name="description" content={`Expert ${primaryKeyword}. Call ${phoneNumber} for professional wasp nest extraction. Specialized hornet and yellow jacket control in Kaysville, UT 84037, 84041, 84015, 84025.`} />
+        <meta name="keywords" content="wasp nest removal kaysville, hornet control kaysville ut, yellow jacket exterminator kaysville, pest control kaysville utah" />
+        <link rel="canonical" href="https://waspnestremovalkaysville.vercel.app/" />
 
         {/* Open Graph */}
         <meta property="og:title" content={`${primaryKeyword} | ${firmName}`} />
-        <meta property="og:description" content="Kaysville's leading rodent removal specialists. Rapid response and professional extraction to keep your home safe." />
-        <meta property="og:url" content="https://rodentremovalkaysville.vercel.app/" />
+        <meta property="og:description" content="Kaysville's leading wasp removal specialists. Rapid response and professional extraction to keep your home safe." />
+        <meta property="og:url" content="https://waspnestremovalkaysville.vercel.app/" />
         <meta property="og:image" content="/2.jpeg" />
 
         {/* LocalBusiness Schema */}
@@ -37,9 +37,9 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "https://rodentremovalkaysville.vercel.app/2.jpeg",
-            "@id": "https://rodentremovalkaysville.vercel.app/",
-            "url": "https://rodentremovalkaysville.vercel.app/",
+            "image": "https://waspnestremovalkaysville.vercel.app/2.jpeg",
+            "@id": "https://waspnestremovalkaysville.vercel.app/",
+            "url": "https://waspnestremovalkaysville.vercel.app/",
             "telephone": phoneNumber,
             "address": {
               "@type": "PostalAddress",
@@ -54,7 +54,7 @@ const Index = () => {
               "latitude": businessCords.lat,
               "longitude": businessCords.lng
             },
-            "areaServed": "Kaysville, UT",
+            "areaServed": ["84037", "84041", "84015", "84025"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -77,7 +77,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Rodent Removal",
+            "serviceType": "Wasp Nest Removal",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -88,20 +88,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Rodent Removal Services",
+              "name": "Wasp Removal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Rat Extermination"
+                    "name": "Hornet Nest Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Mouse Proofing"
+                    "name": "Yellow Jacket Neutralization"
                   }
                 }
               ]
@@ -114,15 +114,15 @@ const Index = () => {
       <main>
         <Hero
           title={<><span className="text-indigo-600">{primaryKeyword}</span></>}
-          subtitle="Kaysville's premier rodent extraction units. We provide professional rat and mouse removal and structural sanitization for your residential or commercial property. Service available 24/7."
-          badge="KAYSVILLE RODENT PROS"
+          subtitle="Kaysville's premier wasp extraction units. We provide professional hornet, wasp, and yellow jacket removal for your residential or commercial property in 84037, 84041, 84015, and 84025. Service available 24/7."
+          badge="KAYSVILLE WASP REMOVAL PROS"
           phone="3238801224"
           image="/2.jpeg"
           overlayImage="/4.jpeg"
           features={[
-            { icon: ShieldCheck, text: "Full Extraction Guarantee" },
-            { icon: Bug, text: "Rodent Proofing Experts" },
-            { icon: Home, text: "Total Property Sanitization" }
+            { icon: ShieldCheck, text: "Terminal Extraction Guarantee" },
+            { icon: Bug, text: "Stinging Insect Experts" },
+            { icon: Home, text: "Total Perimeter Defense" }
           ]}
         />
         <Services />
@@ -133,12 +133,12 @@ const Index = () => {
 
         <section className="bg-white py-12 border-t text-center">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Local Service Network</h2>
+            <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Kaysville Service Network - 84037, 84041, 84015, 84025</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Rodent Control Corvallis Oregon</a>
-              <a href="https://wildliferemovalgastonianc.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Wildlife Removal Gastonia NC</a>
-              <a href="https://bedbugheattreatmentbaltimoremd.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Bed Bug Heat Treatment Baltimore MD</a>
-              <a href="https://pestcontrolbatonrouge.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Pest Control Baton Rouge</a>
+              <a href="https://rodentremovalkaysville.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Rodent Removal Kaysville</a>
+              <a href="https://emergencywaspremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Emergency Wasp Removal Brooksville</a>
+              <a href="https://hornetnestremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Hornet Nest Removal Brooksville</a>
+              <a href="https://tickcontrolservicebrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Tick Control Service Brooksville</a>
             </div>
           </div>
         </section>
