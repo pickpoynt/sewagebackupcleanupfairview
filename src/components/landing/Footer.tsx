@@ -1,4 +1,4 @@
-import { Droplets, Phone, MapPin, Mail, Instagram, Facebook, Twitter, Youtube, ShieldCheck, Linkedin, Trees } from "lucide-react";
+import { Bug, Phone, MapPin, Mail, Instagram, Facebook, Twitter, Youtube, ShieldCheck, Linkedin, Trees } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,12 +11,12 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
-                <Droplets className="w-6 h-6 text-white" />
+                <Bug className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-black uppercase tracking-tighter">Stone Oak Pros</span>
+              <span className="text-xl font-black uppercase tracking-tighter">Brooksville Termite</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              San Antonio's elite plumbing <br /> preservation network. Protecting <br /> Stone Oak homes with technical <br /> precision and 24/7 reliability.
+              Brooksville's elite termite <br /> preservation network. Protecting <br /> Florida homes with technical <br /> precision and 24/7 reliability.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Twitter, Youtube].map((Icon, i) => (
@@ -31,11 +31,11 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Elite Services</h4>
             <ul className="space-y-4">
               {[
-                "Emergency Repair",
-                "Drain Cleaning",
-                "Water Heaters",
-                "Leak Detection",
-                "Pipe Replacement"
+                "No-Tent Treatment",
+                "Termite Inspections",
+                "Drywood Control",
+                "Formosan Treatment",
+                "Barrier Protection"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Plumbing NAP</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Termite NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">HEADQUARTERS</p>
-                  <p className="text-sm font-bold text-slate-200 uppercase tracking-tight">San Antonio, TX 78258</p>
+                  <p className="text-sm font-bold text-slate-200 uppercase tracking-tight">Brooksville, FL 34601</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">24/7 HOTLINE</p>
-                  <a href="tel:8777921410" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest">(877) 792-1410</a>
+                  <a href="tel:3238801224" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest">(323) 880-1224</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -74,27 +74,27 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">SUPPORT</p>
-                  <a href="/lease-my-number" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest underline decoration-indigo-900 underline-offset-4">LEASE MY NUMBER</a>
+                  <a href="/lease-my-number" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest underline decoration-indigo-900 underline-offset-4 font-black">LEASE MY NUMBER</a>
                 </div>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Stone Oak Promise</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Brooksville Promise</h4>
             <p className="text-slate-400 text-xs leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Exclusively using industry-tested <br /> plumbing components for <br /> long-term protection in <br /> all San Antonio projects.
+              Exclusively using eco-friendly <br /> termite components for <br /> long-term protection in <br /> all Brooksville projects.
             </p>
             <div className="p-6 bg-white/5 rounded-3xl border border-white/10 shadow-inner">
               <p className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Reliability Guarantee Across San Antonio.</p>
+              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Reliability Guarantee Across Hernando County.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 uppercase tracking-[0.2em] text-[10px] font-black">
           <p className="text-slate-600 text-center md:text-left">
-            © {new Date().getFullYear()} Stone Oak Plumbing Pros. All technical rights reserved.
+            © {new Date().getFullYear()} Brooksville No Tent Termite Treatment Pros. All technical rights reserved.
           </p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy Technical Protocol</a>

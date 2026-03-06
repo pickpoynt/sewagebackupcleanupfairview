@@ -1,27 +1,27 @@
-import { ShieldCheck, Zap, DollarSign, Award, Droplets } from "lucide-react";
+import { ShieldCheck, Zap, DollarSign, Award, Bug } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Licensed Master Plumbers",
-    description: "Our Stone Oak team consists of highly certified specialists with decades of infrastructure experience.",
+    title: "Licensed Termite Specialists",
+    description: "Our Brooksville team consists of certified pest control specialists with elite structural preservation training.",
     icon: Award
   },
   {
     title: "24/7 Emergency Response",
-    description: "We guarantee a rapid response time for all Stone Oak plumbing emergencies, day or night.",
+    description: "We guarantee a rapid response for all Brooksville termite emergencies, ensuring immediate protection.",
     icon: Zap
   },
   {
     title: "Upfront Flat-Rate Pricing",
-    description: "No hidden fees. We provide clear, honest estimates before any plumbing work begins.",
+    description: "No hidden fees. We provide clear, honest estimates for all no-tent termite treatment options.",
     icon: DollarSign
   }
 ];
 
 const WhyUs = () => {
   return (
-    <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
+    <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden text-nowrap">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
@@ -30,21 +30,21 @@ const WhyUs = () => {
             <div className="relative z-10 text-nowrap">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-indigo-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-sm text-nowrap">
                 <ShieldCheck className="w-4 h-4" />
-                The Stone Oak Advantage
+                The Brooksville Advantage
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase">
-                Why Stone Oak Trusts <br />
-                <span className="text-indigo-600">Our Plumbing Experts</span>
+                Why Brooksville Trusts <br />
+                <span className="text-indigo-600">Our Termite Experts</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-                We've built our reputation on precision, reliability, and technical <br /> mastery. When Stone Oak families need a plumber, they call the Pros.
+                We've built our reputation on precision, reliability, and non-tenting <br /> mastery. When Brooksville families need termite help, they call the Pros.
               </p>
 
               <div className="space-y-8 text-nowrap">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex gap-6 group text-nowrap">
+                  <div key={index} className="flex gap-6 group text-nowrap text-nowrap">
                     <div className="w-14 h-14 rounded-2xl bg-white shadow-xl flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-indigo-600 transition-colors text-nowrap">
-                      <feature.icon className="w-6 h-6 text-indigo-600 group-hover:text-white transition-colors text-nowrap" />
+                      <feature.icon className="w-6 h-6 text-indigo-600 group-hover:text-white transition-colors" />
                     </div>
                     <div className="text-nowrap">
                       <h3 className="text-xl font-bold text-slate-900 mb-2 uppercase tracking-tight text-nowrap">{feature.title}</h3>
@@ -58,11 +58,11 @@ const WhyUs = () => {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/20 rounded-full -translate-y-12 translate-x-12 blur-2xl" />
                 <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-8 text-nowrap">
                   <div className="text-nowrap">
-                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-2">Ready to assist Stone Oak</p>
-                    <a href="tel:8777921410" className="text-3xl font-black hover:text-indigo-400 transition-colors text-nowrap">(877) 792-1410</a>
+                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-2">Ready to assist Brooksville</p>
+                    <a href="tel:3238801224" className="text-3xl font-black hover:text-indigo-400 transition-colors text-nowrap text-nowrap">(323) 880-1224</a>
                   </div>
                   <Button className="bg-white text-indigo-900 hover:bg-slate-100 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all text-nowrap" asChild>
-                    <a href="tel:8777921410">Get Estimate</a>
+                    <a href="tel:3238801224">Get Estimate</a>
                   </Button>
                 </div>
               </div>
@@ -73,17 +73,17 @@ const WhyUs = () => {
             <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] rotate-3 text-nowrap" />
             <img
               src="/1.jpeg"
-              alt="Stone Oak Plumbing Excellence"
+              alt="Brooksville Termite Protection"
               className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.2] hover:grayscale-0 transition-all duration-700 text-nowrap"
             />
             <div className="absolute bottom-12 -left-12 z-20 bg-white p-8 rounded-3xl shadow-2xl border border-slate-100 animate-bounce-slow text-nowrap">
               <div className="flex items-center gap-4 text-nowrap">
                 <div className="w-12 h-12 rounded-2xl bg-emerald-500 flex items-center justify-center text-nowrap">
-                  <Droplets className="w-6 h-6 text-white text-nowrap" />
+                  <Bug className="w-6 h-6 text-white" />
                 </div>
-                <div className="text-nowrap text-nowrap text-nowrap">
+                <div className="text-nowrap text-nowrap">
                   <p className="text-2xl font-black text-slate-900 text-nowrap">100%</p>
-                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest text-nowrap">Service Guarantee</p>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest text-nowrap">Success Guarantee</p>
                 </div>
               </div>
             </div>

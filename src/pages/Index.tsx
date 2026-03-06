@@ -9,38 +9,38 @@ import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
-import { ShieldCheck, Droplets, Zap, Activity } from "lucide-react";
+import { ShieldCheck, Bug, Zap, Activity, Home } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>plumber stone oak (877) 792-1410 | Stone Oak Plumbing Pros</title>
-        <meta name="description" content="Professional plumber stone oak. Call (877) 792-1410. Expert residential & commercial plumbing repair, drain cleaning, and water heater service in Stone Oak, San Antonio. Free estimates." />
-        <meta name="keywords" content="plumber stone oak, stone oak plumbing repair, plumbing services san antonio, drain cleaning stone oak, local plumber near me" />
-        <link rel="canonical" href="https://plumberstoneoak.vercel.app/" />
+        <title>No Tent Termite Treatment Brooksville FL (323) 880-1224 | Brooksville No Tent Termite Treatment Pros</title>
+        <meta name="description" content="Professional No Tent Termite Treatment Brooksville FL. Call (323) 880-1224. Expert termite control and non-tenting solutions in Brooksville, FL. Safe, effective, and hassle-free termite removal." />
+        <meta name="keywords" content="No Tent Termite Treatment Brooksville FL, termite control brooksville fl, non-tenting termite treatment, drywood termite treatment brooksville, local termite exterminator" />
+        <link rel="canonical" href="https://notenttermitetreatmentbrooksvillefl.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Stone Oak Plumbing Pros",
+            "name": "Brooksville No Tent Termite Treatment Pros",
             "image": "/2.jpeg",
-            "@id": "https://plumberstoneoak.vercel.app/",
-            "url": "https://plumberstoneoak.vercel.app/",
-            "telephone": "(877) 792-1410",
+            "@id": "https://notenttermitetreatmentbrooksvillefl.vercel.app/",
+            "url": "https://notenttermitetreatmentbrooksvillefl.vercel.app/",
+            "telephone": "(323) 880-1224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Stone Oak Pkwy",
-              "addressLocality": "San Antonio",
-              "addressRegion": "TX",
-              "postalCode": "78258",
+              "streetAddress": "Main St",
+              "addressLocality": "Brooksville",
+              "addressRegion": "FL",
+              "postalCode": "34601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "29.6450",
-              "longitude": "-98.4840"
+              "latitude": "28.5553",
+              "longitude": "-82.3879"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,48 +55,48 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Plumbing Maintenance & Repair",
+            "serviceType": "No Tent Termite Treatment",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Stone Oak Plumbing Pros"
+              "name": "Brooksville No Tent Termite Treatment Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "San Antonio"
+              "name": "Brooksville"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Plumbing Services in Stone Oak",
+              "name": "Termite Treatment Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Plumbing Repair" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain Cleaning & Clog Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency 24/7 Plumbing" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "No-Tent Drywood Termite Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Subterranean Termite Control" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Annual Termite Inspections" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Termite Removal" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="plumber stone oak (877) 792-1410 | Stone Oak Plumbing Pros" />
-        <meta property="og:description" content="Expert plumbing services in Stone Oak, San Antonio. Professional repair, drain cleaning, and water heater service. Call (877) 792-1410!" />
+        <meta property="og:title" content="No Tent Termite Treatment Brooksville FL (323) 880-1224 | Brooksville No Tent Termite Treatment Pros" />
+        <meta property="og:description" content="Expert termite treatment in Brooksville, FL. Professional non-tenting solutions and termite control. Call (323) 880-1224!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://plumberstoneoak.vercel.app/" />
+        <meta property="og:url" content="https://notenttermitetreatmentbrooksvillefl.vercel.app/" />
         <meta property="og:image" content="/2.jpeg" />
       </Helmet>
 
       <Header />
       <main>
         <Hero
-          title={<>Best Local <br /><span className="text-indigo-600">Plumber Stone Oak</span></>}
-          subtitle="San Antonio's most trusted elite plumbing specialists. We provide rapid, high-precision repairs for Stone Oak families and businesses. Available 24/7 for all your plumbing emergencies."
-          badge="STONE OAK PLUMBING PROS"
-          phone="8777921410"
+          title={<>Advanced <br /><span className="text-indigo-600">No Tent Termite Treatment Brooksville FL</span></>}
+          subtitle="Brooksville's most trusted termite specialists. We provide eco-friendly, non-tenting solutions that protect your home without the need for fumigation. Available 24/7 for all your pest emergencies."
+          badge="BROOKSVILLE TERMITE PROS"
+          phone="3238801224"
           image="/2.jpeg"
           overlayImage="/4.jpeg"
           features={[
-            { icon: Droplets, text: "Advanced Leak Detection" },
-            { icon: Zap, text: "Same-Day Emergency Fix" },
-            { icon: Activity, text: "Full System Maintenance" }
+            { icon: ShieldCheck, text: "No-Tent Guarantee" },
+            { icon: Bug, text: "Precision Termite Targeting" },
+            { icon: Home, text: "Full Home Protection" }
           ]}
         />
         <Services />
@@ -109,10 +109,10 @@ const Index = () => {
           <div className="container mx-auto px-4 text-nowrap">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://earwigexterminatordenver.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Earwig Exterminator Denver</a>
-              <a href="https://centipederepellenthawaii.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Centipede Repellent Hawaii</a>
-              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pest Control South Point Ohio</a>
-              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Rodent Control Corvallis Oregon</a>
+              <a href="https://chipmunkremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Chipmunk Removal Brooksville FL</a>
+              <a href="https://raccooncontrolsouthwestranches.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Raccoon Control Southwest Ranches</a>
+              <a href="https://wildliferemovalgastonianc.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Wildlife Removal Gastonia NC</a>
+              <a href="https://wildliferemovaldouglasvillega.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Wildlife Removal Douglasville GA</a>
             </div>
           </div>
         </section>
