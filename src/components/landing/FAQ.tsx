@@ -4,117 +4,116 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
-import { HelpCircle, MessageSquare } from "lucide-react";
+import { Bug, Phone, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "Can you treat for termites without tenting?",
-    answer: "Yes, non-tenting treatments are highly effective for many termite infestations. We use specialized liquid localized treatments and orange oil-based solutions that target termites directly without requiring you to move out of your home."
+    question: "How much is it to hire an exterminator for wasps?",
+    answer: "The cost for professional wasp removal typically ranges from $150 to $500 depending on the nest's location, size, and the species of wasp involved. High-altitude or structural nesting may increase the technical dispatch cost."
   },
   {
-    question: "What is the average cost to tent a house for termites in Florida?",
-    answer: "The average cost for termite tenting in Florida typically ranges from $1,200 to $3,500, depending on the square footage of the home and the severity of the infestation. No-tent treatments are often a more cost-effective alternative."
+    question: "Are professional wasp removal services worth it?",
+    answer: "Absolutely. Professionals possess the equipment and chemical protocols required to neutralize an entire colony in one visit, preventing multiple stings and recurring infestations that DIY methods often miss."
   },
   {
-    question: "Can I treat drywood termites myself?",
-    answer: "DIY termite treatment is rarely successful because drywood termites live deep inside wood structures. Professional equipment and specialized termiticides are required to ensure the entire colony is eliminated."
+    question: "How do professionals get rid of wasp nests?",
+    answer: "Technicians use high-pressure aerosol injections, residual dust treatments, or localized freezing agents to eliminate active wasps before physically removing the nest and treating the area to prevent pheromone-based returns."
   },
   {
-    question: "How much does Terminix charge to tent a house?",
-    answer: "Major national brands like Terminix often charge based on the linear footage and volume of the home. Prices typically start around $1,500 and can go much higher for larger properties."
+    question: "Who do you call to get rid of wasp nest near me?",
+    answer: "You should call a specialized emergency wasp removal service like Brooksville Wasp Pros at (323) 880-1224. General pest control may not offer the same 24/7 rapid response for stinging insects."
   },
   {
-    question: "What is the alternative to tenting a house for termites?",
-    answer: "Alternatives include localized chemical spot treatments, orange oil treatments, heat treatments, and baiting systems. Our no-tent approach uses advanced liquid termiticides that penetrate wood and eliminate colonies from within."
+    question: "What does WD-40 do to wasps?",
+    answer: "WD-40 can kill wasps on contact by clogging their breathing pores, but it is not a structural solution. It lacks residual control and can be flammable and messy on home surfaces."
   },
   {
-    question: "Is tenting or non-tenting better?",
-    answer: "Tenting is exhaustive for the entire structure but inconvenient. Non-tenting is better for localized infestations, allows you to stay in your home, and is often much more eco-friendly and safe for family and pets."
+    question: "Will wasps come back if you remove their nest?",
+    answer: "If the nest is removed without professional residual treatment, wasps may attempt to rebuild in the same area due to lingering pheromones. We apply specialized barriers to ensure they don't return."
   },
   {
-    question: "How many years does termite tenting last?",
-    answer: "Tenting only kills the termites currently in the house; it offers no residual protection. Once the gas dissipates, termites can return immediately. Preventive treatments are necessary for long-term protection."
+    question: "How do I permanently get rid of wasps?",
+    answer: "Permanent control requires identifying all potential nesting sites and applying professional-grade repellent barriers. Maintaining a regular perimeter protocol is the most effective long-term solution."
   },
   {
-    question: "How much does Orkin charge for termite treatment?",
-    answer: "Orkin's pricing is customized for each home, typically starting at $1,000 for basic treatments and increasing significantly for full structural fumigation."
+    question: "When should I call an exterminator for wasps?",
+    answer: "Call immediately if a nest is located near entry points, if you notice active wasps inside your living space, or if you suspect a nest is inside your walls or attic."
   },
   {
-    question: "What is the hardest pest to get rid of?",
-    answer: "Termites and bedbugs are widely considered the hardest pests to exterminate because they hide deep within structural elements or fabrics and reproduce rapidly."
+    question: "Can I remove a wasp nest myself?",
+    answer: "It is not recommended. Wasps are highly aggressive when defending their colony. Without proper protective gear and technical knowledge, you risk severe allergic reactions and multiple stings."
   },
   {
-    question: "What is a termite's worst enemy?",
-    answer: "In nature, ants are the primary enemy of termites. In residential pest control, professional termiticides like Termidor and Sentricon baiting systems are their biggest threats."
+    question: "Why is wasp removal so expensive?",
+    answer: "The cost reflects the risk, specialized protective equipment, and industrial-grade chemicals required to safely and effectively eliminate a colony. Emergency response times also factor into the dispatch fee."
   },
   {
-    question: "Do termites come back after tenting?",
-    answer: "Yes, termites can re-infest a home within weeks of tenting if no preventative barriers or soil treatments are maintained, as tenting provides zero residual protection."
+    question: "What is the best month to get rid of a wasp nest?",
+    answer: "The best time is early spring (April/May) when the queen is just starting the colony. However, our emergency units provide effective removal regardless of the month or nest size."
   },
   {
-    question: "What is the biggest enemy of termites?",
-    answer: "The biggest enemy is professional intervention. Liquid termiticides that use a 'transfer effect' allow termites to unknowingly carry the poison back to the queen, destroying the entire colony."
+    question: "How does an exterminator get rid of wasps?",
+    answer: "Exterminators use a multi-phase technical protocol: identification of species, targeted chemical elimination, manual nest extraction, and finally, residual site treatment."
   },
   {
-    question: "Can you get rid of drywood termites without tenting?",
-    answer: "Absolutely. We specialize in precision injections and wood surface treatments that kill drywood termites on contact and provide lasting residual protection."
+    question: "Where do wasps go at night if they don't have a nest?",
+    answer: "Wasps without a nest will seek shelter in dense foliage, under eaves, or within structural gaps. They are generally less active at night, making it an ideal time for certain technical removal phases."
   },
   {
-    question: "How serious is a drywood termite infestation?",
-    answer: "A drywood termite infestation is very serious because it can compromise the structural integrity of your home's framing, flooring, and support beams over time."
+    question: "What do wasps absolutely hate?",
+    answer: "Wasps are repelled by certain scents like peppermint, eucalyptus, and clove. They also avoid areas that have been treated with professional residual termiticides and repellents."
   },
   {
-    question: "What attracts drywood termites to a home?",
-    answer: "Drywood termites are attracted to exposed wood, moisture, and lights. They often enter homes through attic vents or cracks in window frames during swarming season."
+    question: "Do wasps return to the same nest every year?",
+    answer: "Most species do not reuse old nests, but they are highly likely to return to the same general location if the area isn't professionally cleaned and deactivated of nesting pheromones."
   },
   {
-    question: "What is the alternative to fumigation for termites?",
-    answer: "Localized spot treatments, borate treatments, and orange oil are the primary alternatives. These methods focus on elite-grade chemical targeting rather than gassing the entire structure."
+    question: "What month will wasps go away?",
+    answer: "In Brooksville, wasp activity typically declines in late autumn as temperatures drop and the colony workers die off, though queens search for overwintering spots during this time."
   },
   {
-    question: "What do termites hate the most?",
-    answer: "Termites hate sunlight, lack of moisture, and the smell of cedarwood and orange oil. They are also highly sensitive to the chemicals found in professional-grade termiticides."
+    question: "What is considered an infestation of wasps?",
+    answer: "An infestation is defined by the presence of at least one active colony or frequent wasp sightings within or immediately adjacent to a structure."
   },
   {
-    question: "Can a termite-infested house be saved?",
-    answer: "Yes, almost any termite-infested house can be saved if the damage is caught early enough. We can eliminate the infestation and recommend structural repairs to restore the home's integrity."
+    question: "What month are wasps most aggressive?",
+    answer: "Wasps are most aggressive in late summer (August and September) as their food sources decline and they shift toward defending the colony's final productive cycle."
   },
   {
-    question: "How much does sentricon cost per year?",
-    answer: "Sentricon systems typically cost between $250 and $500 per year for monitoring and maintenance, following an initial installation fee."
+    question: "What time do wasps go to bed?",
+    answer: "Wasps returning to the nest as the sun sets are usually settled by dusk and remain inactive until dawn, depending on ambient light and temperature."
   },
   {
-    question: "Does tentless termite treatment work?",
-    answer: "Yes, tentless treatment is highly effective when used correctly. It relies on the precision of the technician to identify and treat all active galleries with professional-grade chemicals."
+    question: "Do wasps come back for revenge?",
+    answer: "Wasps don't feel 'revenge,' but they release alarm pheromones when threatened that signals other nearby wasps to attack, which can feel like a coordinated retaliation."
   },
   {
-    question: "Do you have to wash your clothes after your house is tented for termites?",
-    answer: "While the gas used in tenting is designed to leave no residue, most professionals recommend washing clothes and bedding as a precaution to remove any potential dust or odors."
+    question: "What is the lifespan of a wasp?",
+    answer: "Worker wasps typically live 12-22 days, while queens can live for up to a year, spending most of it in hibernation during the colder months."
   },
   {
-    question: "Are drywood termites hard to get rid of?",
-    answer: "They are more challenging than subterranean termites because they live entirely within wood. However, with our advanced no-tent techniques, we can eliminate them with high success rates."
+    question: "How do you encourage wasps to leave?",
+    answer: "Minimal infestations can be discouraged by removing food sources and using essential oil repellents, but active nests require professional mechanical removal for safety."
   },
   {
-    question: "How to get rid of drywood termites naturally in house?",
-    answer: "Natural methods like orange oil (D-limonene) and borate salts are effective for localized areas. Exposure to sunlight and extreme temperatures can also kill them, though these are hard to apply to an entire house."
+    question: "Will wasps sting you while you sleep?",
+    answer: "Only if you inadvertently disturb a wasp that has entered your sleeping area. Wasps do not actively hunt humans for stinging while they sleep."
   },
   {
-    question: "What kills termites immediately?",
-    answer: "Direct contact with professional-grade pesticides, heat treatments (above 120°F), and certain botanical extracts like orange oil kill termites almost instantly on contact."
+    question: "Are wasps out at 10pm?",
+    answer: "Unless there is strong artificial light or it is exceptionally warm, wasps remain inside or on the surface of their nest at 10pm."
   },
   {
-    question: "Do drywood termites come back after tenting?",
-    answer: "Yes, because tenting gas has no residual life. Preventative wood treatments are the only way to ensure they do not return after an initial extermination."
+    question: "What is the hardest infestation to get rid of?",
+    answer: "Stinging insect infestations within wall voids or attic insulation are the most technically challenging and require professional tracking and structural extraction."
   },
   {
-    question: "What is the safest termite treatment?",
-    answer: "Non-toxic baiting systems and borate-based wood treatments are generally considered the safest for residents, as they have low mammalian toxicity and are environmentally targeted."
+    question: "How many wasps are generally in a nest?",
+    answer: "A mature paper wasp nest may have 20-30 wasps, while a yellow jacket or hornet nest can house thousands of active colony members."
   },
   {
-    question: "What is the hardest pest to exterminate?",
-    answer: "Drywood termites rank at the top of the list along with bedbugs and certain species of cockroaches due to their ability to hide and survive in inaccessible areas."
+    question: "What kills wasps immediately?",
+    answer: "Contact aerosols and professional-grade freezing agents are designed to neutralize a wasp instantly, preventing the release of alarm pheromones."
   }
 ];
 
@@ -122,57 +121,46 @@ const FAQ = () => {
   return (
     <section id="faq" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10 text-nowrap">
-        <div className="grid lg:grid-cols-2 gap-16 items-start text-nowrap">
+        <div className="max-w-3xl mx-auto text-center mb-16 text-nowrap">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-indigo-600 mb-6 uppercase tracking-[0.2em] text-[10px] font-bold">
+            <HelpCircle className="w-4 h-4" />
+            Expert Knowledge Base
+          </div>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight text-nowrap">
+            Wasp Removal <span className="text-indigo-600">Technical Briefing</span>
+          </h2>
+          <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
+            Critical infrastructure data for Brooksville residents regarding <br /> stinging insect elimination and perimeter security.
+          </p>
+        </div>
 
-          <div className="text-nowrap">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap">
-              <HelpCircle className="w-4 h-4" />
-              Expert Knowledge Base
-            </div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase">
-              Termite <span className="text-indigo-600">Intelligence</span> <br />
-              & Local Expert FAQ
-            </h2>
-            <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-              We believe in transparency and empowering Brooksville <br /> residents with the knowledge they need to make <br /> informed decisions about their home's protection.
-            </p>
+        <div className="max-w-3xl mx-auto text-nowrap text-nowrap">
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`item-${index}`} className="border border-slate-100 bg-slate-50 rounded-2xl px-6 data-[state=open]:border-indigo-200 data-[state=open]:shadow-xl data-[state=open]:shadow-indigo-900/5 transition-all">
+                <AccordionTrigger className="text-left font-bold text-slate-900 hover:no-underline py-6 uppercase tracking-tight text-sm">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-600 leading-relaxed pb-6 italic font-medium text-sm">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
 
-            <div className="bg-slate-50 p-8 rounded-[2.5rem] border border-slate-100 text-nowrap">
-              <div className="flex items-center gap-4 mb-6 text-nowrap">
-                <div className="w-12 h-12 rounded-2xl bg-white shadow-lg flex items-center justify-center">
-                  <MessageSquare className="w-6 h-6 text-indigo-600" />
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900">Have more questions?</h4>
-                  <p className="text-xs text-slate-500 font-bold uppercase tracking-widest">Our Brooksville techs are ready</p>
-                </div>
+          <div className="mt-16 p-8 bg-slate-950 rounded-[2.5rem] border border-white/5 relative overflow-hidden text-nowrap">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/10 rounded-full blur-3xl" />
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-nowrap">
+              <div className="text-nowrap text-nowrap">
+                <h4 className="text-white text-xl font-black mb-2 uppercase tracking-tight">Need Immediate Extraction?</h4>
+                <p className="text-slate-400 text-sm font-bold uppercase tracking-widest italic text-nowrap">24/7 Brooksville Emergency Response Team</p>
               </div>
-              <a href="tel:3238801224" className="text-3xl font-black text-indigo-600 block mb-8 hover:opacity-80 transition-opacity text-nowrap uppercase">(323) 880-1224</a>
-              <Button className="w-full bg-slate-900 hover:bg-indigo-600 text-white h-14 rounded-2xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all text-nowrap" asChild>
-                <a href="tel:3238801224">Ask a Specialist</a>
-              </Button>
+              <a href="tel:3238801224" className="flex items-center gap-4 bg-indigo-600 hover:bg-indigo-700 text-white px-8 h-16 rounded-2xl transition-all shadow-xl shadow-indigo-900/40 text-nowrap">
+                <Phone className="w-5 h-5 text-nowrap" />
+                <span className="font-black text-lg text-nowrap">(323) 880-1224</span>
+              </a>
             </div>
           </div>
-
-          <div>
-            <Accordion type="single" collapsible className="w-full space-y-4">
-              {faqs.map((faq, index) => (
-                <AccordionItem
-                  key={index}
-                  value={`item-${index}`}
-                  className="border-none bg-slate-50 rounded-3xl px-8 transition-all hover:bg-indigo-50/50 data-[state=open]:bg-indigo-50 data-[state=open]:shadow-xl data-[state=open]:shadow-indigo-900/5"
-                >
-                  <AccordionTrigger className="hover:no-underline py-6 text-left text-slate-900 font-bold text-lg uppercase tracking-tight">
-                    {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-slate-600 text-sm leading-relaxed pb-6 font-medium italic">
-                    {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-
         </div>
       </div>
     </section>

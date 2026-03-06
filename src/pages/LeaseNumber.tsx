@@ -1,104 +1,83 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
-import { Phone, Mail, CheckCircle2, ArrowRight, Droplets, Zap, ShieldCheck, Bug } from "lucide-react";
+import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
+    const primaryKeyword = "Emergency Wasp Removal Brooksville FL";
     const phoneNumber = "(323) 880-1224";
-    const email = "leasemynumber@gmail.com";
-    const price = "$19";
 
     return (
-        <div className="min-h-screen bg-slate-50 text-nowrap">
+        <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease No Tent Termite Treatment Brooksville FL Phone Number | {phoneNumber}</title>
-                <meta name="description" content="Exclusive opportunity for Brooksville pest control firms. Lease the high-converting phone number (323) 880-1224 for just $19/month and dominate the local market." />
+                <title>Lease this Number: {phoneNumber} | {primaryKeyword}</title>
+                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Brooksville wasp removal business. Maximize your local SEO and lead generation.`} />
             </Helmet>
 
             <Header />
 
-            <main className="pt-32 pb-24 text-nowrap">
-                <div className="container mx-auto px-4 text-nowrap">
-                    {/* Hero Section */}
-                    <div className="max-w-4xl mx-auto text-center mb-20 text-nowrap">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap">
-                            <Zap className="w-4 h-4 text-nowrap" />
-                            Exclusive Brooksville Opportunity
+            <main className="pt-32 pb-24">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-4xl mx-auto">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-lg shadow-indigo-900/20">
+                            <Bug className="w-4 h-4" />
+                            Brooksville Opportunity
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none text-nowrap uppercase">
-                            Dominate Brooksville <br />
-                            <span className="text-indigo-600">For Just {price}/Month</span>
+
+                        <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none">
+                            Dominate the <span className="text-indigo-600">Wasp Removal</span> <br /> Market in Brooksville
                         </h1>
-                        <p className="text-xl text-slate-600 leading-relaxed font-medium italic text-nowrap">
-                            Own the primary termite treatment line for the Brooksville district. <br /> Redirect all incoming technical calls directly to your firm's dispatch.
-                        </p>
-                    </div>
 
-                    <div className="grid lg:grid-cols-2 gap-12 items-center text-nowrap">
-                        {/* Value Prop */}
-                        <div className="space-y-8 text-nowrap">
-                            <div className="p-8 bg-white rounded-[2.5rem] border border-slate-100 shadow-xl text-nowrap">
-                                <h2 className="text-2xl font-black text-slate-900 mb-6 uppercase tracking-tight text-nowrap">Infrastructure Assets</h2>
-                                <div className="space-y-6 text-nowrap">
-                                    {[
-                                        "Exclusive rights to (323) 880-1224",
-                                        "Direct call forwarding to your office",
-                                        "Targeted Brooksville localized traffic",
-                                        "No long-term contracts - cancel anytime",
-                                        "First-mover advantage in Hernando County"
-                                    ].map((item, i) => (
-                                        <div key={i} className="flex items-center gap-4 group text-nowrap">
-                                            <div className="w-6 h-6 rounded-full bg-indigo-50 flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors text-nowrap">
-                                                <CheckCircle2 className="w-4 h-4 text-indigo-600 group-hover:text-white transition-colors text-nowrap" />
-                                            </div>
-                                            <span className="text-slate-700 font-bold italic text-sm leading-relaxed text-nowrap uppercase">{item}</span>
-                                        </div>
-                                    ))}
+                        <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium">
+                            We are offering an exclusive opportunity to lease this high-performing digital asset and its associated phone number for just <span className="text-indigo-600 font-black">$19/month</span>.
+                        </p>
+
+                        <div className="grid md:grid-cols-2 gap-8 mb-16">
+                            <div className="bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-slate-200/50">
+                                <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center mb-6 shadow-lg shadow-indigo-900/20">
+                                    <Bug className="w-8 h-8 text-white" />
                                 </div>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Infrastructure Assets</h3>
+                                <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
+                                    Immediately capture all inbound recovery requests for "Emergency Wasp Removal Brooksville FL". This number is primed for local lead generation.
+                                </p>
                             </div>
 
-                            <div className="flex items-center gap-6 p-6 bg-indigo-50 rounded-3xl border border-indigo-100 text-nowrap">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-600 flex items-center justify-center shrink-0 shadow-lg text-nowrap">
-                                    <ShieldCheck className="w-8 h-8 text-white text-nowrap" />
+                            <div className="bg-slate-900 p-8 rounded-[2.5rem] text-white shadow-2xl">
+                                <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center mb-6 shadow-lg shadow-indigo-900/20">
+                                    <Zap className="w-8 h-8 text-white" />
                                 </div>
-                                <div className="text-nowrap">
-                                    <p className="text-[10px] font-black text-indigo-600 uppercase tracking-[0.2em] mb-1 text-nowrap uppercase">Technical Security</p>
-                                    <p className="text-sm font-bold text-slate-700 leading-snug text-nowrap uppercase">One company per district. <br /> Maximum market retention.</p>
+                                <h3 className="text-xl font-bold mb-4 uppercase tracking-tight">Lease Terms</h3>
+                                <div className="space-y-4">
+                                    <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                                        <span className="text-slate-400 text-xs font-bold uppercase tracking-widest">Monthly Rate</span>
+                                        <span className="text-2xl font-black text-indigo-400">$19.00</span>
+                                    </div>
+                                    <div className="flex items-center justify-between pt-2">
+                                        <span className="text-slate-400 text-xs font-bold uppercase tracking-widest">Availability</span>
+                                        <span className="text-xs font-black text-emerald-400 uppercase tracking-widest">Immediate Release</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Pricing Card */}
-                        <div className="relative text-nowrap">
-                            <div className="absolute inset-0 bg-indigo-600/10 rounded-[3.5rem] blur-3xl text-nowrap" />
-                            <div className="relative z-10 bg-slate-900 p-12 rounded-[3.5rem] border border-white/10 shadow-2xl text-nowrap">
-                                <div className="text-center mb-10 text-nowrap">
-                                    <Bug className="w-12 h-12 text-indigo-500 mx-auto mb-6 text-nowrap" />
-                                    <h3 className="text-white text-xl font-black uppercase tracking-widest mb-2 text-nowrap uppercase">Elite Lease Plan</h3>
-                                    <div className="flex items-center justify-center gap-1 text-nowrap">
-                                        <span className="text-indigo-400 text-2xl font-bold">$</span>
-                                        <span className="text-6xl font-black text-white">19</span>
-                                        <span className="text-indigo-400 text-xl font-bold">/mo</span>
-                                    </div>
-                                </div>
-
-                                <div className="space-y-6 mb-10 text-nowrap">
-                                    <div className="p-6 bg-white/5 rounded-2xl border border-white/10 text-nowrap">
-                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 text-nowrap uppercase">PRIMARY LINE</p>
-                                        <p className="text-2xl font-black text-white text-nowrap">{phoneNumber}</p>
-                                    </div>
-                                    <div className="p-6 bg-white/5 rounded-2xl border border-white/10 text-nowrap">
-                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 text-nowrap uppercase">DIRECT INQUIRY</p>
-                                        <p className="text-lg font-black text-indigo-400 text-nowrap uppercase">{email}</p>
-                                    </div>
-                                </div>
-
-                                <Button className="w-full bg-white text-indigo-900 hover:bg-slate-100 h-16 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-xl active:scale-95 transition-all text-nowrap" asChild>
-                                    <a href={`mailto:${email}?subject=LEASE MY NUMBER - Termite Treatment Brooksville ${phoneNumber}`}>
-                                        Activate Protocol <ArrowRight className="w-5 h-5 ml-3 text-nowrap" />
+                        <div className="bg-indigo-600 rounded-[3rem] p-12 text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40">
+                            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-32 translate-x-32" />
+                            <div className="relative z-10 text-center max-w-2xl mx-auto">
+                                <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">Secure This Technical Asset</h2>
+                                <p className="text-indigo-100 mb-10 font-bold italic">
+                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Brooksville sector.
+                                </p>
+                                <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - BROOKSVILLE EMERGENCY WASP REMOVAL PROS`}>
+                                        <Mail className="w-6 h-6 mr-4" />
+                                        Initialize Lease Inquiry
                                     </a>
                                 </Button>
+                                <p className="mt-8 text-[11px] font-black text-indigo-200 uppercase tracking-[0.3em]">
+                                    Direct Contact: leasemynumber@gmail.com
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -14,113 +14,108 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const navLinks = [
+    { name: "Unit Services", href: "#services" },
+    { name: "Technical Advantage", href: "#why-us" },
+    { name: "Field Protocol", href: "#info" },
+    { name: "Dispatch FAQ", href: "#faq" }
+  ];
+
   return (
-    <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-          ? "bg-slate-900/95 backdrop-blur-md py-3 shadow-2xl border-b border-indigo-500/20"
-          : "bg-transparent py-5"
-          }`}
-      >
-        {/* Mobile Sticky click-to-call Header (shown only on mobile) */}
-        <div className="md:hidden absolute top-0 left-0 w-full bg-indigo-600 py-1 flex justify-center items-center gap-2">
-          <Phone className="w-3 h-3 text-white animate-pulse" />
-          <a href="tel:3238801224" className="text-[10px] font-black text-white uppercase tracking-widest text-nowrap">
-            Brooksville 24/7 Hotline: (323) 880-1224
-          </a>
+    <header
+      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${isScrolled
+          ? "bg-white/95 backdrop-blur-md shadow-xl py-4"
+          : "bg-transparent py-8"
+        }`}
+    >
+      {/* Mobile Sticky Call Header - Priority Protocol */}
+      <div className="md:hidden fixed top-0 left-0 right-0 bg-indigo-600 text-white py-2 px-4 z-[110] flex items-center justify-between border-b border-indigo-400/30">
+        <div className="flex items-center gap-2">
+          <Bug className="w-4 h-4 animate-pulse" />
+          <span className="text-[10px] font-black uppercase tracking-[0.2em]">Emergency Unit Active</span>
         </div>
+        <a href="tel:3238801224" className="flex items-center gap-2 text-[11px] font-black underline decoration-2 underline-offset-4">
+          <Phone className="w-3.5 h-3.5" />
+          (323) 880-1224
+        </a>
+      </div>
 
-        <div className="container mx-auto px-4 mt-6 md:mt-0">
-          <div className="flex items-center justify-between">
-            {/* Branding */}
-            <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-              <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-900/40 group-hover:scale-110 transition-all">
-                <Bug className="w-6 h-6 text-white" />
-              </div>
-              <div className="text-nowrap">
-                <h1 className="text-xl md:text-2xl font-black text-white uppercase tracking-tighter leading-none">
-                  Brooksville <span className="text-indigo-400">Termite</span>
-                </h1>
-                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mt-1">No-Tent Treatment Pros</p>
-              </div>
+      <div className="container mx-auto px-4">
+        <nav className="flex items-center justify-between">
+          <div className="flex items-center gap-4 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-900/20 group-hover:rotate-[360deg] transition-transform duration-700">
+              <Bug className="w-6 h-6 text-white" />
             </div>
+            <div className="flex flex-col">
+              <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors ${isScrolled ? 'text-slate-900' : 'text-slate-900'}`}>
+                Brooksville Wasp
+              </span>
+              <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1 text-nowrap">
+                Emergency Removal Pros
+              </span>
+            </div>
+          </div>
 
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-8">
-              {["Services", "Why Us", "Info", "Contact", "FAQ"].map((item) => (
+          <div className="hidden lg:flex items-center gap-12">
+            <div className="flex items-center gap-8">
+              {navLinks.map((link) => (
                 <a
-                  key={item}
-                  href={`#${item.toLowerCase().replace(" ", "-")}`}
-                  className="text-xs font-bold text-slate-300 hover:text-indigo-400 uppercase tracking-widest transition-colors"
+                  key={link.name}
+                  href={link.href}
+                  className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:text-indigo-600 relative group ${isScrolled ? 'text-slate-600' : 'text-slate-600'}`}
                 >
-                  {item}
+                  {link.name}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full" />
                 </a>
               ))}
-            </nav>
+            </div>
 
-            {/* Hotline & CTA */}
-            <div className="hidden md:flex items-center gap-6">
-              <div className="text-right border-r border-white/10 pr-6">
-                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 italic">24/7 Brooksville Dispatch</p>
-                <a href="tel:3238801224" className="text-xl font-black text-white hover:text-indigo-400 transition-colors text-nowrap">
+            <div className="flex items-center gap-6 border-l border-slate-200 pl-8">
+              <div className="flex flex-col items-end">
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Emergency Service</span>
+                <a href="tel:3238801224" className="text-xl font-black text-indigo-600 hover:scale-105 transition-transform">
                   (323) 880-1224
                 </a>
               </div>
-              <Button className="bg-white text-indigo-900 hover:bg-slate-100 font-bold uppercase tracking-widest text-xs px-8 h-12 rounded-xl shadow-xl shadow-white/5 active:scale-95 transition-all text-nowrap" asChild>
-                <a href="tel:3238801224">Schedule Now</a>
+              <Button className="bg-slate-900 text-white hover:bg-indigo-600 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all" asChild>
+                <a href="tel:3238801224">Schedule Removal</a>
               </Button>
             </div>
-
-            {/* Mobile Toggle */}
-            <button
-              className="lg:hidden w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center text-white border border-white/10"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-        </div>
-      </header>
-
-      {/* Mobile Menu */}
-      <div
-        className={`fixed inset-0 z-[60] bg-slate-950/98 backdrop-blur-xl transition-all duration-500 lg:hidden ${isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none translate-x-full"
-          }`}
-      >
-        <div className="p-8">
-          <div className="flex justify-between items-center mb-16">
-            <div className="flex items-center gap-3">
-              <Bug className="w-8 h-8 text-indigo-500" />
-              <span className="text-2xl font-black text-white uppercase tracking-tighter">Brooksville Termite</span>
-            </div>
-            <button onClick={() => setIsMobileMenuOpen(false)} className="text-white">
-              <X className="w-8 h-8" />
-            </button>
           </div>
 
-          <div className="flex flex-col gap-8 mb-16">
-            {["Services", "Why Us", "Info", "Contact", "FAQ"].map((item) => (
+          <button
+            className="lg:hidden p-2 rounded-xl bg-slate-100 text-slate-900"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X /> : <Menu />}
+          </button>
+        </nav>
+      </div>
+
+      {isMobileMenuOpen && (
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 shadow-2xl animate-in slide-in-from-top py-8 px-4">
+          <div className="flex flex-col gap-6 mb-8">
+            {navLinks.map((link) => (
               <a
-                key={item}
-                href={`#${item.toLowerCase().replace(" ", "-")}`}
-                className="text-4xl font-black text-white hover:text-indigo-500 transition-colors uppercase tracking-tighter"
+                key={link.name}
+                href={link.href}
+                className="text-lg font-black text-slate-900 uppercase tracking-tight"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {item}
+                {link.name}
               </a>
             ))}
           </div>
-
           <div className="p-8 bg-indigo-600 rounded-[2rem] text-white">
             <p className="text-[10px] font-black uppercase tracking-[0.3em] mb-4 opacity-70">Brooksville Hotline</p>
             <a href="tel:3238801224" className="text-3xl font-black block mb-6 text-nowrap">(323) 880-1224</a>
-            <Button className="w-full bg-white text-indigo-600 h-14 rounded-2xl font-black uppercase tracking-widest shadow-xl text-nowrap">
-              Express Dispatch
+            <Button className="w-full bg-white text-indigo-600 h-14 rounded-2xl font-black uppercase tracking-widest shadow-xl text-nowrap" asChild>
+              <a href="tel:3238801224">Express Dispatch</a>
             </Button>
           </div>
         </div>
-      </div>
-    </>
+      )}
+    </header>
   );
 };
 

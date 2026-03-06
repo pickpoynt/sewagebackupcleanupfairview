@@ -2,23 +2,23 @@ import { Bug, Zap, ShieldCheck, Activity, Timer } from "lucide-react";
 
 const services = [
   {
-    title: "No-Tent Treatment",
-    description: "Eco-friendly, precise localized treatments that eliminate drywood termites without the need for fumigation.",
+    title: "Eco-Friendly Extraction",
+    description: "Botanical-based treatments that neutralize wasp colonies effectively without damaging your local ecosystem.",
     icon: ShieldCheck
   },
   {
-    title: "Termite Inspections",
-    description: "Comprehensive structural analysis using infrared technology to detect hidden termite galleries early.",
+    title: "Hornet Removal",
+    description: "Technical removal of aerial hornet nests using protective containment and high-pressure neutralization.",
     icon: Bug
   },
   {
-    title: "Drywood Control",
-    description: "Advanced liquid termiticides that penetrate wood deeply, providing immediate and long-term protection.",
+    title: "Ground Nesting",
+    description: "Elimination of yellow jacket colonies within lawns and foundations using deep-soil injection protocols.",
     icon: Zap
   },
   {
-    title: "Soil Barriers",
-    description: "Non-invasive liquid barriers around your home's foundation to prevent subterranean termite intrusion.",
+    title: "Barrier Application",
+    description: "Residual repellent barriers applied to eaves and structural joints to prevent secondary nesting attempts.",
     icon: Activity
   }
 ];
@@ -30,13 +30,13 @@ const Services = () => {
         <div className="max-w-3xl mx-auto text-center mb-20 text-nowrap">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap">
             <Bug className="w-4 h-4 text-nowrap" />
-            Brooksville Technical Services
+            Brooksville Technical Units
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight text-nowrap uppercase">
-            Master Termite <span className="text-indigo-600">Solutions</span>
+            Master Wasp <span className="text-indigo-600">Solutions</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed italic font-medium text-nowrap">
-            Providing Brooksville with elite termite maintenance and <br /> rapid corrective removals. Professional structural protection 24/7.
+            Providing Brooksville with elite wasp maintenance and <br /> rapid corrective removals. Professional structural safety 24/7.
           </p>
         </div>
 
@@ -55,6 +55,5 @@ const Services = () => {
     </section>
   );
 };
-
 
 export default Services;

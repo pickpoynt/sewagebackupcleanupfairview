@@ -3,19 +3,19 @@ import { Button } from "@/components/ui/button";
 
 const features = [
     {
-        title: "Advanced Barrier Tech",
-        description: "We use liquid termiticides that create an undetectable barrier, allowing termites to carry the treatment back to the nest.",
-        icon: ShieldCheck
+        title: "Thermal Mapping",
+        description: "We use infrared scanners to locate wasp nests hidden inside wall voids or attic insulation without intrusive drilling.",
+        icon: Microscope
     },
     {
-        title: "Precision Injection",
-        description: "Our high-pressure injection systems target termite galleries deep inside structural wood without damaging your home.",
+        title: "Precision Neutralization",
+        description: "Our high-pressure aerosol systems reach deep into complex nest structures for immediate colony elimination.",
         icon: Zap
     },
     {
-        title: "Eco-Friendly Solutions",
-        description: "We prioritize botanical-based treatments and targeted chemicals that are safe for your family, pets, and the environment.",
-        icon: Bug
+        title: "Structural Sealing",
+        description: "After removal, we secure entry points with industrial-grade mesh and sealants to prevent secondary infestations.",
+        icon: ShieldCheck
     }
 ];
 
@@ -29,17 +29,17 @@ const TrenchlessInfo = () => {
                         <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3 text-nowrap" />
                         <img
                             src="/3.jpeg"
-                            alt="Brooksville Termite Infrastructure"
+                            alt="Brooksville Wasp Recovery Infrastructure"
                             className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.3] hover:grayscale-0 transition-all duration-700 text-nowrap"
                         />
                         <div className="absolute top-12 -right-12 z-20 bg-slate-900 p-8 rounded-3xl shadow-2xl border border-indigo-500/30 text-nowrap">
-                            <div className="flex items-center gap-4 text-nowrap">
-                                <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center text-nowrap text-nowrap">
+                            <div className="flex items-center gap-4 text-nowrap text-nowrap">
+                                <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center text-nowrap">
                                     <Activity className="w-6 h-6 text-white" />
                                 </div>
-                                <div className="text-nowrap">
+                                <div className="text-nowrap text-nowrap">
                                     <p className="text-2xl font-black text-white text-nowrap uppercase">100%</p>
-                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest text-nowrap uppercase">Elimination Rate</p>
+                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest text-nowrap uppercase">Extraction Rate</p>
                                 </div>
                             </div>
                         </div>
@@ -47,15 +47,15 @@ const TrenchlessInfo = () => {
 
                     <div className="order-1 lg:order-2 text-nowrap">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-slate-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap uppercase">
-                            <Microscope className="w-4 h-4 text-nowrap" />
-                            Termite Technical Protocol
+                            <Bug className="w-4 h-4 text-nowrap" />
+                            Technical Wasp Protocol
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap">
-                            Precision Targeting <br />
-                            <span className="text-indigo-600 text-nowrap uppercase">For Brooksville Homes</span>
+                            Precision Extraction <br />
+                            <span className="text-indigo-600 text-nowrap uppercase">For Brooksville Residents</span>
                         </h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-                            Our restoration protocols integrate aerospace-grade <br /> inspection technologies with traditional master termite <br /> craftsmanship for Brooksville's elite residences.
+                            Our recovery protocols integrate industrial-grade <br /> inspection technologies with traditional master wasp <br /> elimination for Brooksville's elite residences.
                         </p>
 
                         <div className="space-y-8 mb-12 text-nowrap text-nowrap">
@@ -64,7 +64,7 @@ const TrenchlessInfo = () => {
                                     <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors text-nowrap">
                                         <feature.icon className="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors" />
                                     </div>
-                                    <div className="text-nowrap">
+                                    <div className="text-nowrap text-nowrap">
                                         <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-tight text-nowrap uppercase">{feature.title}</h3>
                                         <p className="text-slate-600 text-sm font-medium italic text-nowrap">{feature.description}</p>
                                     </div>
@@ -74,8 +74,8 @@ const TrenchlessInfo = () => {
 
                         <Button className="bg-indigo-600 hover:bg-indigo-700 h-16 px-10 rounded-2xl font-bold uppercase tracking-[0.15em] text-sm shadow-2xl shadow-indigo-900/30 active:scale-95 transition-all text-nowrap" asChild>
                             <a href="tel:3238801224" className="flex items-center gap-3 text-nowrap">
-                                <Bug className="w-5 h-5 text-nowrap text-nowrap" />
-                                Technical Consultation
+                                <Zap className="w-5 h-5 text-nowrap" />
+                                Technical Dispatch
                             </a>
                         </Button>
                     </div>
