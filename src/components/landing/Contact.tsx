@@ -23,13 +23,13 @@ const Contact = () => {
             <div className="lg:w-1/2">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-2xl uppercase text-nowrap">
                 <ShieldAlert className="w-4 h-4" />
-                Ant Control Specialists
+                Dead Rat Removal Specialists
               </div>
               <h2 className="text-4xl md:text-7xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic uppercase">
                 Get <br /><span className="text-indigo-400">Inspection</span>
               </h2>
               <p className="text-slate-400 text-xl leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6 uppercase">
-                Professional ant extermination services for homes and businesses in Fairview and surrounding areas. Expert technicians ready to eliminate your ant problem. Serving all 84025, 84010, 84020, 84041, 84037, 84015, 84054, 84070, 84065, and 84095.
+                Professional dead rat removal services for homes and businesses in Cohoes and surrounding areas. Expert technicians ready to eliminate odor problems immediately. Serving all 12047, 12189, 12065, 12019, 12033, 12054, 12077, 12110, 12121, 12144, 12159, 12188, and Albany County areas.
               </p>
 
               <div className="grid gap-10">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-2 text-nowrap uppercase">Service Area</p>
-                    <p className="text-2xl font-black text-white text-nowrap uppercase">Fairview, UT 84025</p>
+                    <p className="text-2xl font-black text-white text-nowrap uppercase">Cohoes, NY 12047</p>
                   </div>
                 </div>
               </div>
@@ -70,11 +70,11 @@ const Contact = () => {
                     />
                   </div>
                   <Input
-                    placeholder="SERVICE ADDRESS (FAIRVIEW AREA)"
+                    placeholder="SERVICE ADDRESS (COHOES AREA)"
                     className="h-16 px-6 rounded-2xl bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Textarea
-                    placeholder="DESCRIBE ANT PROBLEM AND INFESTATION DETAILS..."
+                    placeholder="DESCRIBE DEAD RODENT ODOR PROBLEM AND LOCATION DETAILS..."
                     className="min-h-[160px] p-6 rounded-[2rem] bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Button className="w-full bg-slate-900 text-white hover:bg-indigo-600 h-20 rounded-[2rem] font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95 group text-nowrap">

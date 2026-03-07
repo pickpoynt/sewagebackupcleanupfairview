@@ -12,12 +12,12 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Emergency Dead Rat Removal Ojai",
-  subtitle = "Professional dead rodent removal services for homes and businesses in Ojai. Expert technicians specializing in locating and removing deceased rats, mice, and other rodents.",
+  title = "Dead Rat Smell Removal Cohoes",
+  subtitle = "Professional dead rodent odor elimination services for homes and businesses in Cohoes. Expert technicians specializing in locating and removing deceased rodents, complete sanitization, and permanent odor elimination.",
   image = "/2.jpeg",
-  overlayImage = "/4.jpeg",
+  overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "OJAI EMERGENCY DEAD RAT REMOVAL PROS",
+  badge = "COHOES DEAD RAT SMELL REMOVAL PROS",
   features = [
     { icon: ShieldCheck, text: "Rapid Response" },
     { icon: Bug, text: "Safe Removal" },
