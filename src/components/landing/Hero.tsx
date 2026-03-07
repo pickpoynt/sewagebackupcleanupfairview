@@ -12,14 +12,14 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Ant Exterminator Fairview",
-  subtitle = "Professional ant extermination services for homes and businesses in Fairview. Expert technicians specializing in carpenter ants, pavement ants, and all ant species.",
+  title = "Spider Pest Control Fairview",
+  subtitle = "Professional spider extermination services for homes and businesses in Fairview. Expert technicians specializing in brown recluse spiders, black widows, and all spider species.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "3238801224",
-  badge = "FAIRVIEW ANT EXTERMINATOR PROS",
+  badge = "FAIRVIEW SPIDER PEST CONTROL PROS",
   features = [
-    { icon: ShieldCheck, text: "Colony Elimination" },
+    { icon: ShieldCheck, text: "Spider Elimination" },
     { icon: Bug, text: "Species ID" },
     { icon: Zap, text: "Fast Response" }
   ]

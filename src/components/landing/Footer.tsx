@@ -11,12 +11,12 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Fairview Ant</span>
-                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Exterminator Pros</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Fairview Spider</span>
+                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Pest Control Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Fairview's trusted ant extermination specialists providing comprehensive colony elimination and property protection services.
+              Fairview's trusted spider pest control specialists providing comprehensive elimination and property protection services.
             </p>
           </div>
 
@@ -68,9 +68,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:support@leasemynumber.com" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
+                <a href="mailto:leasemynumber@gmail.com" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
                   <div className="w-1.5 h-1.5 rounded-full bg-indigo-600 group-hover:w-4 transition-all" />
-                  <span className="text-xs font-bold uppercase tracking-widest uppercase">LEASemyNumber@gmail.com</span>
+                  <span className="text-xs font-bold uppercase tracking-widest uppercase">leasemynumber@gmail.com</span>
                 </a>
               </li>
             </ul>
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Fairview Ant Exterminator Pros. All rights reserved.
+              © {new Date().getFullYear()} Fairview Spider Pest Control Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>
