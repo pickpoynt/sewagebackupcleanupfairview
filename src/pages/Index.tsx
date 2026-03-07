@@ -10,27 +10,27 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { ShieldCheck, Bug, Home, Zap } from "lucide-react";
 
 const Index = () => {
-  const primaryKeyword = "Emergency Dead Rat Removal Ojai";
-  const firmName = "Ojai Emergency Dead Rat Removal Pros";
+  const primaryKeyword = "Emergency Wasp Nest Removal Wauconda";
+  const firmName = "Wauconda Emergency Wasp Nest Removal Pros";
   const phoneNumber = "(323) 880-1224";
   const rawPhone = "3238801224";
-  const zipCodes = "93023, 93024, 93001, 93003, 93004, 93066, 93067, 93094";
-  const businessCords = { lat: 34.4479, lng: -119.2429 };
+  const zipCodes = "60084, 60050, 60073, 60002, 60020, 60041, 60097, 60051";
+  const businessCords = { lat: 42.3584, lng: -88.1445 };
 
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
         <title>{primaryKeyword} | {firmName} Call {phoneNumber}</title>
-        <meta name="description" content={`Professional ${primaryKeyword}. Local experts providing rapid response for dead rodent removal in Ojai and surrounding areas, including zip codes ${zipCodes}. Call ${phoneNumber} now for emergency dead rat removal services.`} />
+        <meta name="description" content={`Professional ${primaryKeyword}. Local experts providing rapid response for wasp nest removal in Wauconda and surrounding areas, including zip codes ${zipCodes}. Call ${phoneNumber} now for emergency wasp extermination services.`} />
         <script type="application/ld+json">
           {`
             {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "${firmName}",
-              "image": "https://emergencydeadratremovalojai.vercel.app/2.jpeg",
-              "@id": "https://emergencydeadratremovalojai.vercel.app/",
-              "url": "https://emergencydeadratremovalojai.vercel.app/",
+              "image": "https://emergencywaspnestremovalwauconda.vercel.app/2.jpeg",
+              "@id": "https://emergencywaspnestremovalwauconda.vercel.app/",
+              "url": "https://emergencywaspnestremovalwauconda.vercel.app/",
               "telephone": "${rawPhone}",
               "address": {
                 "@type": "PostalAddress",
@@ -60,7 +60,7 @@ const Index = () => {
                 "closes": "23:59"
               },
               "sameAs": [
-                "https://emergencydeadratremovalojai.vercel.app/"
+                "https://emergencywaspnestremovalwauconda.vercel.app/"
               ]
             }
           `}
@@ -70,45 +70,45 @@ const Index = () => {
             {
               "@context": "https://schema.org",
               "@type": "Service",
-              "serviceType": "Emergency Dead Rat Removal Services",
+              "serviceType": "Emergency Wasp Nest Removal Services",
               "provider": {
                 "@type": "LocalBusiness",
                 "name": "${firmName}"
               },
               "areaServed": {
                 "@type": "Place",
-                "name": "Ojai"
+                "name": "Wauconda"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Dead Rodent Removal Services",
+                "name": "Wasp Extermination Services",
                 "itemListElement": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Emergency Dead Rat Extraction"
+                      "name": "Emergency Wasp Nest Extraction"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Dead Mouse Removal"
+                      "name": "Yellow Jacket Nest Removal"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Deceased Animal Location & Detection"
+                      "name": "Hornet & Bee Hive Removal"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Sanitization & Deodorization Services"
+                      "name": "Preventive Wasp Control"
                     }
                   }
                 ]
@@ -120,46 +120,46 @@ const Index = () => {
 
       <Header />
       <Hero
-        title={<span>Emergency Dead Rat Removal <br /><span className="text-amber-400">Ojai</span></span>}
-        subtitle={`Professional dead rodent removal services for homes and businesses in Ojai and surrounding areas. Expert technicians specializing in locating and removing deceased rats, mice, and other rodents from walls, attics, crawl spaces, and yards. Serving 93023, 93024, 93001, 93003, 93004, 93066, 93067, and 93094. Call ${phoneNumber} for immediate emergency removal.`}
-        badge="OJAI EMERGENCY DEAD RAT REMOVAL PROS"
+        title={<span>Emergency Wasp Nest Removal <br /><span className="text-amber-400">Wauconda</span></span>}
+        subtitle={`Professional wasp nest removal services for homes and businesses in Wauconda and surrounding areas. Expert technicians specializing in safe removal of wasp nests, yellow jacket colonies, hornet hives, and bee swarms from eaves, decks, trees, and structures. Serving 60084, 60050, 60073, 60002, 60020, 60041, 60097, and 60051. Call ${phoneNumber} for immediate emergency wasp removal.`}
+        badge="WAUCONDA EMERGENCY WASP NEST REMOVAL PROS"
         phone={rawPhone}
       />
 
-      {/* Dead Rat Removal Content Sections */}
+      {/* Wasp Nest Removal Content Sections */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
-                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Expert <span className="text-indigo-600">Dead Rodent Extraction</span></h2>
+                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Expert <span className="text-indigo-600">Wasp Colony Elimination</span></h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  Our professional dead rodent removal technicians use advanced detection methods to locate and safely remove deceased rodents from your property. We understand the health hazards and unpleasant odors associated with dead animals.
+                  Our professional wasp removal technicians use specialized equipment and techniques to safely remove dangerous wasp nests from your property. We understand the urgency and risks associated with stinging insects.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  From rats trapped in walls to mice in attics, our team has the expertise to handle any deceased rodent situation in Ojai and surrounding Ventura County communities quickly and professionally.
+                  From aggressive yellow jackets to massive hornet colonies, our team has the expertise to handle any wasp infestation in Wauconda and surrounding Lake County communities quickly and professionally.
                 </p>
                 <ul className="space-y-3 mt-8">
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Complete carcass removal using safe protocols</span>
+                    <span className="text-slate-700 font-medium">Complete nest removal using safe protocols</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Sanitization of contaminated areas</span>
+                    <span className="text-slate-700 font-medium">Same-day emergency response for dangerous colonies</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Deodorization to eliminate foul odors</span>
+                    <span className="text-slate-700 font-medium">Preventive treatments to discourage rebuilding</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Entry point sealing to prevent future infestations</span>
+                    <span className="text-slate-700 font-medium">Family and pet-safe extermination methods</span>
                   </li>
                 </ul>
               </div>
               <div className="relative">
-                <img src="/1.jpeg" alt="Professional dead rat removal service in Ojai" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
+                <img src="/1.jpeg" alt="Professional wasp nest removal service in Wauconda" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
                 <div className="absolute -bottom-6 -left-6 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl">
                   <p className="text-4xl font-black">100%</p>
                   <p className="text-sm font-bold uppercase tracking-widest mt-2">Guaranteed Results</p>
@@ -169,26 +169,26 @@ const Index = () => {
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative order-last md:order-first">
-                <img src="/3.jpeg" alt="Emergency rodent carcass extraction specialists" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
+                <img src="/3.jpeg" alt="Emergency yellow jacket and hornet extraction specialists" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
               </div>
               <div>
-                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Why Choose <span className="text-indigo-600">Our Removal Experts</span></h2>
+                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Why Choose <span className="text-indigo-600">Our Wasp Experts</span></h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  With years of experience serving Ojai and throughout Ventura County, our dead rodent removal specialists have developed proven strategies for locating and removing even the hardest-to-find carcasses.
+                  With years of experience serving Wauconda and throughout Lake County, our wasp nest removal specialists have developed proven strategies for eliminating even the largest and most dangerous colonies.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  We don't just remove the dead animal—we sanitize the area, eliminate odors, and help prevent future problems. Our comprehensive approach ensures your property is safe and odor-free.
+                  We don't just spray the nest—we remove it completely, treat the area, and help prevent future colonies from forming. Our comprehensive approach ensures your property is safe and wasp-free.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Bug className="w-10 h-10 text-indigo-600 mb-4" />
-                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Rapid Response</h3>
-                    <p className="text-slate-600 text-sm">We respond quickly to emergency calls to minimize health risks and unpleasant odors.</p>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Species Identification</h3>
+                    <p className="text-slate-600 text-sm">We identify the exact wasp species to apply the most effective removal method.</p>
                   </div>
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Home className="w-10 h-10 text-indigo-600 mb-4" />
                     <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Property Protection</h3>
-                    <p className="text-slate-600 text-sm">Our treatments protect your home from disease and contamination caused by decomposing rodents.</p>
+                    <p className="text-slate-600 text-sm">Our treatments protect your family from dangerous stings and prevent structural damage.</p>
                   </div>
                 </div>
               </div>
@@ -201,9 +201,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Common <span className="text-indigo-600">Removal Scenarios</span></h2>
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Common <span className="text-indigo-600">Nesting Locations</span></h2>
               <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-                Dead rodents can be found in various locations throughout your property. Here are the most common situations we handle in Ojai:
+                Wasps build nests in various locations around your property. Here are the most common situations we handle in Wauconda:
               </p>
             </div>
 
@@ -212,32 +212,32 @@ const Index = () => {
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Home className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Wall Voids & Ceilings</h3>
-                <p className="text-slate-600 mb-4">Rodents often die inside walls after consuming poison or from natural causes. The decomposition creates unbearable odors and attracts flies and maggots.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Foul odor, staining on walls, buzzing sounds from flies</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Eaves & Soffits</h3>
+                <p className="text-slate-600 mb-4">Wasps love building umbrella-shaped nests under roof overhangs, porches, and decks where they're protected from rain.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Visible paper nests, flying insects near roofline, buzzing sounds</p>
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Bug className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Attics & Crawl Spaces</h3>
-                <p className="text-slate-600 mb-4">Nesting rodents frequently perish in hard-to-reach attic spaces and crawl areas beneath homes, creating serious biohazard conditions.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Strong ammonia smell, droppings, nesting materials, discoloration</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Ground Nests</h3>
+                <p className="text-slate-600 mb-4">Yellow jackets often nest in abandoned rodent burrows in lawns, gardens, and landscape beds creating hidden dangers.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Small holes in ground, increased wasp activity near soil, pets pawing at ground</p>
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Zap className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Yards & Gardens</h3>
-                <p className="text-slate-600 mb-4">Outdoor dead rodents near foundations can attract other pests and create unpleasant smells that enter your home through ventilation systems.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Localized bad smell, increased fly activity, pet agitation</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Trees & Shrubs</h3>
+                <p className="text-slate-600 mb-4">Hornets and wasps frequently build large aerial nests in tree branches, bushes, and dense vegetation near homes.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Large football-sized nests, aggressive flying patterns, visible colony activity</p>
               </div>
             </div>
 
             <div className="mt-16 text-center">
-              <img src="/4.jpeg" alt="Dead rodent detection and removal equipment" className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto h-[400px] object-cover" />
+              <img src="/4.jpeg" alt="Wasp nest detection and removal equipment" className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto h-[400px] object-cover" />
             </div>
           </div>
         </div>
@@ -248,17 +248,17 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 uppercase tracking-tight">Areas We <span className="text-indigo-600">Proudly Serve</span></h2>
             <p className="text-slate-600 text-lg mb-12 max-w-3xl mx-auto">
-              Our emergency dead rodent removal experts provide comprehensive service throughout Ojai and all surrounding Ventura County communities. No matter where you're located in our service area, we're ready to respond quickly.
+              Our emergency wasp nest removal experts provide comprehensive service throughout Wauconda and all surrounding Lake County communities. No matter where you're located in our service area, we're ready to respond quickly.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              {["Ojai", "Oxnard", "Ventura", "Camarillo", "Thousand Oaks", "Simi Valley", "Port Hueneme", "Santa Paula"].map((city) => (
+              {["Wauconda", "Lake Zurich", "Barrington", "Island Lake", "Volo", "Ringwood", "Fox Lake", "McHenry"].map((city) => (
                 <span key={city} className="px-6 py-3 bg-indigo-50 rounded-2xl text-sm font-bold text-indigo-700 uppercase tracking-wide">
                   {city}
                 </span>
               ))}
             </div>
             <p className="text-slate-600 font-medium">
-              Serving all zip codes: <span className="text-indigo-600 font-black">93023, 93024, 93001, 93003, 93004, 93066, 93067, 93094</span>
+              Serving all zip codes: <span className="text-indigo-600 font-black">60084, 60050, 60073, 60002, 60020, 60041, 60097, 60051</span>
             </p>
           </div>
         </div>
@@ -267,9 +267,9 @@ const Index = () => {
       <div className="bg-slate-50 py-12 border-b border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Licensed Dead Animal Removal Specialists</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Licensed Wasp Extermination Specialists</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">EPA-Approved Sanitization</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">EPA-Approved Treatments</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
             <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">24/7 Emergency Response</span>
           </div>
@@ -280,7 +280,7 @@ const Index = () => {
       <WhyUs />
       <Contact />
 
-      {/* Dead Rat Removal Questions Section */}
+      {/* Wasp Nest Removal Questions Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
