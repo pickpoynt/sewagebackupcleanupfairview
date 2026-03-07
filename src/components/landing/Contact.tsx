@@ -26,7 +26,7 @@ const Contact = () => {
                 Ant Control Specialists
               </div>
               <h2 className="text-4xl md:text-7xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic uppercase">
-                Get <br /><span className="text-indigo-400">Free Inspection</span>
+                Get <br /><span className="text-indigo-400">Inspection</span>
               </h2>
               <p className="text-slate-400 text-xl leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6 uppercase">
                 Professional ant extermination services for homes and businesses in Fairview and surrounding areas. Expert technicians ready to eliminate your ant problem. Serving all 84025, 84010, 84020, 84041, 84037, 84015, 84054, 84070, 84065, and 84095.
@@ -78,7 +78,7 @@ const Contact = () => {
                     className="min-h-[160px] p-6 rounded-[2rem] bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Button className="w-full bg-slate-900 text-white hover:bg-indigo-600 h-20 rounded-[2rem] font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95 group text-nowrap">
-                    Request Free Inspection
+                    Request Inspection
                     <ArrowRight className="w-5 h-5 ml-4 group-hover:translate-x-2 transition-transform text-nowrap" />
                   </Button>
                   <p className="text-center text-[9px] font-black text-slate-400 uppercase tracking-widest mt-6 text-nowrap uppercase">

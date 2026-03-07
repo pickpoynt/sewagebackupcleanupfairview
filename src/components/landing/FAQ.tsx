@@ -74,7 +74,7 @@ const faqData = [
   },
   {
     question: "Can you get rid of ants permanently?",
-    answer: "Yes, with professional treatment, proper exclusion techniques, and ongoing prevention measures. Regular inspections and maintenance treatments help ensure your property remains ant-free year-round."
+    answer: "Yes, with professional treatment, proper exclusion techniques, and ongoing prevention measures. Regular inspections and maintenance treatments help ensure your property remains rodent-free year-round."
   },
   {
     question: "Do coffee grounds repel ants?",
@@ -159,7 +159,7 @@ const FAQ = () => {
               </p>
               <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
                 <a href="tel:3238801224">
-                  Call for Free Inspection
+                  Call for Inspection
                 </a>
               </Button>
             </div>

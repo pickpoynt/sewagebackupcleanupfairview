@@ -300,7 +300,7 @@ const Index = () => {
                 { q: "Will a dead rat smell go away?", a: "The odor can last 2-4 weeks naturally, but professional deodorization can eliminate it within 24-48 hours." },
                 { q: "Will rats leave if they see a dead rat?", a: "Not necessarily. Rats may avoid the immediate area temporarily, but pheromones can actually attract other rats initially." },
                 { q: "How long does it take for a dead rat to get maggots?", a: "Maggots can appear within 24-48 hours in warm conditions, accelerating decomposition significantly." },
-                { q: "Do I have to pay to get rid of rats?", a: "Yes, professional removal services charge fees, though some municipalities offer free disposal of dead rodents." },
+                { q: "Do I have to pay to get rid of rats?", a: "Yes, professional removal services charge fees for complete rodent removal and sanitization." },
                 { q: "How to safely get rid of a dead rat?", a: "Wear gloves and mask, use plastic bags, double-bag the carcass, sanitize the area thoroughly, and wash hands immediately." },
                 { q: "What is the hardest pest to get rid of?", a: "Bed bugs, German cockroaches, and rats are among the most difficult pests to completely eliminate." },
                 { q: "Does one rat mean an infestation?", a: "Usually yes—rats are social animals. Seeing one often indicates a larger colony nearby." },
@@ -374,7 +374,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-[10px] text-slate-500 font-medium leading-relaxed italic">
-              This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
+              This site is a complimentary service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
             </p>
           </div>
         </div>

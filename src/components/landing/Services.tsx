@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: "Preventive Inspections",
-    description: "Regular monitoring and exclusion services to keep your Fairview property ant-free year-round.",
+    description: "Regular monitoring and exclusion services to keep your Ojai property rodent-free year-round.",
     icon: Activity
   }
 ];
