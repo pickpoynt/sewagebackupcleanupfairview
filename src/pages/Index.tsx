@@ -258,7 +258,7 @@ const Index = () => {
               ))}
             </div>
             <p className="text-slate-600 font-medium">
-              Serving all zip codes: <span className="text-indigo-600 font-black">{zipCodes}</span>
+              Serving Fairview and all surrounding Allegheny County areas
             </p>
           </div>
         </div>
@@ -356,7 +356,7 @@ const Index = () => {
               ))}
             </div>
             <p className="mt-12 text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">
-              Serving Fairview Zip Codes: {zipCodes}
+              Professional Sewage Backup Services in Fairview, PA
             </p>
           </div>
         </div>
